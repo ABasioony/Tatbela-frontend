@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+        <meta name="description" content=" تتبيلة هو موقع الكترونى يتيح لك طلب اكل بيت صحى و نظيف اونلابن بكل سهولة فى كل انحاء المملكة العربية السعودية كما يتيح مشروع منزلى ناجح لربات المنزل و الطباخين"  >
+        <meta name="keywords" content="اكل بيت, اكل بيتى , مشروع اكل بيتى , مشروع منزلى ناجح , موقع تتبيلة , تطبيق تتبيلة , اطلب اكل بيتى اونلاين , اكل بيتى فى السعودية ">  
+        <link rel="shortcut icon" href="/Content/Images/favicon.ico">
+        <title>اكل بيت | اطلب اكل بيتى اونلاين | مشروعات منزلية - تتبيلة</title>
+
+        <!---------------------- Styles : Begin ------------------------->
+        <link rel="stylesheet" href="/Content/Css/styles.css">
+        <link rel="stylesheet" href="/Content/Css/ion.rangeSlider.min.css">
+        <link rel="stylesheet" href="/Content/Css/Rating/fontawesome-stars.css">
+        <!---------------------- Styles : End --------------------------->
+
+        <!---------------------- Scripts : Begin ------------------------>
+        <script src="/Content/Js/Plugins/jquery-3.2.1.min.js"></script>
+        <script src="/Content/Js/Plugins/jquery-ui.min.js"></script>
+        <script src="/Content/Js/Plugins/bootstrap.bundle.min.js"></script>
+        <script src="/Content/Js/Plugins/bootstrap.min.js"></script>
+        <script src="/Content/Js/Plugins/popper.min.js"></script>
+        <script src="/Content/Js/Plugins/owl.carousel.min.js"></script>
+        <script src="/Content/Js/Plugins/ion.rangeSlider.min.js"></script>
+        <script src="/Content/Js/Plugins/clamp.min.js"></script>
+        <script src="/Content/Js/Plugins/loadingoverlay.min.js"></script>
+        <script src="/Content/Js/Plugins/jquery.barrating.min.js"></script>
+        <script src="/Content/Js/Core.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=Your_API_KEy&callback=initMap"></script>
+        <!---------------------- Scripts : End -------------------------->
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <!---------------------- Header : Begin ------------------------>
+            <nav class="main-header row no-gutters col-12 has-background">
+                <div class="main-header-container col-lg-10 col-12 ">
+                    <ul class="col header-tools">
+                        <li><a href="#">English</a></li>
+                        <li><p>مرحبا بكم فى تتبيلة</p></li>
+                    </ul>
+                    <div class="logo-container"><img alt="Tatbela" src="/Content/Images/ar-new-ws.png" class="Logo"/></div>
+                    <ul class="col d-xl-flex d-lg-flex d-none header-authenticate">
+                        <!-- <li><a data-toggle="modal" data-target="#registerModal">أنضم لعائلة تتبيلة</a></li>
+                        <li><a>انشاء حساب</a></li>
+                        <li><a href="/Login.html">تسجيل دخول</a></li> -->
+                        <li class="user-op-list">
+                            <a id="userdropdownMenuButton"  data-toggle="dropdown" data-target="UsermenuDrop" aria-haspopup="true" aria-expanded="false">
+                                <img src="/Content/Images/bg1.jpg">
+                                <p>محمد خليفة</p>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="userdropdownMenuButton" id="UsermenuDrop">
+                                <h6 class="dropdown-header">إدارة الحساب</h6>
+                                <a class="dropdown-item" href="/DriverProject/MyProfile.html">حسابى</a>
+                                <a class="dropdown-item" href="/Index.html">تسجيل خروج</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="white-icons col d-xl-none d-lg-none d-flex header-icons dropdown">
+                        <a class="icon-link fas fa-bars" id="dropdownMenuButton" data-toggle="dropdown" data-target="menuDrop" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menuDrop">
+                            <h6 class="dropdown-header">إدارة الحساب</h6>
+                            <a class="profile-item">
+                                <img src="/Content/Images/bg1.jpg">
+                                <p>محمد خليفة</p>
+                            </a>
+                            <a class="dropdown-item" href="/DriverProject/MyProfile.html">حسابى</a>
+                            <a class="dropdown-item" href="/Index.html">تسجيل خروج</a>
+                            <h6 class="dropdown-header">الصفحات</h6>
+                            <a class="dropdown-item" href="/Index-Driver.html">الرئيسية</a>
+                            <a class="dropdown-item" href="/MarketCart.html">سلة المشتريات</a>
+                            <a class="dropdown-item" href="/DriverProject/DriverOrders.html">الطلبات</a>
+                            <a class="dropdown-item" href="/DriverProject/DriverOffers.html">العروض</a>
+                            <a class="dropdown-item" href="#">مدونة تتبيلة</a>
+                            <a class="dropdown-item" href="/Market.html">سوق تتبيلة</a>
+                            <a class="dropdown-item" href="#">إسأل تتبيلة</a>
+                            <a class="dropdown-item" href="/ConditionsAndTerms.html">الشروط و الاحكام</a>
+                            <a class="dropdown-item" href="/About.html">اعرف عنا</a>
+                            <a class="dropdown-item" href="#">اتصل بنا</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <nav class="SubHeaderClass d-xl-flex d-lg-flex d-none sub-header row no-gutters col-lg-10 col-12 white-bg">
+                    <a class=" fi icon-link flaticon-home" href="/Index-Driver.html"></a>
+                    <ul class="main-menu">
+                        <li class="main-menu-item show-sm"><a class="fi flaticon-home" href="/Index-Driver.html">الرئيسية</a></li>
+                        <li class="main-menu-item show-sm"><a class="fi flaticon-supermarket-1" href="/MarketCart.html">سلة المشتريات</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-magnifier" href="/DriverProject/DriverOrders.html">الطلبات</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-cooker" href="/DriverProject/DriverOffers.html">العروض</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-writing" >مدونة تتبيلة</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-writing" href="/Market.html">سوق تتبيلة</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-lifeguard" >إسأل تتبيلة</a></li>
+                        <li class="main-menu-item"><a class="fas fa-list" href="/ConditionsAndTerms.html">الشروط و الاحكام</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-help-button-speech-bubble-with-question-mark" href="/About.html">اعرف عنا</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-old-typical-phone" >اتصل بنا</a></li>
+                    </ul>
+                    <a class=" fi icon-link after-menu flaticon-supermarket-1" href="/MarketCart.html"><span>0</span></a>
+                </nav>
+            </nav>
+            <!---------------------- Header : End ------------------------>
+            <div class="main-data-container row no-gutters">
+                <ul class="site-map row no-gutters col-10">
+                    <li><a href="/Index-Driver.html">الصفحة الرئيسية</a></li>
+                    <li><a href="/DriverProject/DriverOrders.html">الطلبات</a></li>
+                    <li class="current">تفاصيل الطلب</li>
+                </ul>
+
+                <div class="main-data-section-wrapper main-wrap row no-gutters col-xl-10 col-lg-10 col-11">
+                    <div class="col-12 main-data-section row no-gutters no-back chefs-list">
+                        <div  class="sub-data-section col-12 row no-gutters has-footer">
+                            
+                            <div class="sub-data-section-body Order-Details col-12 row no-gutters">
+                                <div class="Order-Details-Header col-12 row">
+                                    <div class="image-div col-12 row">
+                                            <img src="../Content/Images/user-m.png" alt="Client Image">
+                                    </div>
+                                    <h3 class="col-12">محمد خليفة</h3>
+                                    <div class="row rate col-12 no-gutters"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></div>
+                                    <h4 class="col-12">طلب رقم #561</h4>
+                                    <div class="state">
+                                        <p class="fi flaticon-task-complete Done">تم التوصيل</p>
+                                    </div>
+                                    <div class="address col-12 row">
+                                        <p class="from fi flaticon-pin">من ... <span>رشدي, الاسكندرية</span></p>
+                                        <p class="to fi flaticon-pin">الى ... <span>سيدي جابر, الاسكندرية</span></p>
+                                    </div>
+                                </div>
+                                <div class="Order-Details-Body col-12 row">
+                                    <div class="Order-Details-Body-Header col-12 row">
+                                        <h4>تفاصيل الطلب</h4>
+                                    </div>
+                                    <div class="Order-Details-Body-Container col-12 row">
+                                        <div class="Meals col-12">
+                                            <div class="Meals-items row">
+                                                <p class="col-6">اسم الوجبة</p>
+                                                <span>x3</span>
+                                            </div>
+                                            <div class="Meals-items row">
+                                                <p class="col-6">اسم الوجبة</p>
+                                                <span>x3</span>
+                                            </div>
+                                            <div class="Meals-items row">
+                                                <p class="col-6">اسم الوجبة</p>
+                                                <span>x3</span>
+                                            </div>
+                                            <div class="Meals-items last row">
+                                                <p class="col-6">اسم الوجبة</p>
+                                                <span>x3</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Order-Details-footer col-12 row">
+                                    <div class="Order-Details-footer-Header col-12 row">
+                                        <h4>تفاصيل الدفع</h4>
+                                    </div>
+                                    <div class="Order-Details-footer-container col-12 row">
+                                        <div class="Payment-Type row col-6 col-md-5 col-sm-4">
+                                            <p class="Payment-Type-Title">طريقة الدفع :</p>
+                                            <p class="Payment-Type-Details">الدفع عند الاستلام</p>
+                                        </div>
+                                        <div class="Cash col">
+                                            <div class="Cash-delivery row no-gutters">
+                                                <p class="title">رسوم التوصيل</p>
+                                                <div class="col border-bottom"></div>
+                                                <p class="price">25 جنيه</p>
+                                            </div>
+                                            <div class="Cash-total row no-gutters">
+                                                <p class="title col">المطلوب دفعه من العميل</p>
+                                                <p class="price col">175 جنيه</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Order-Details-Tools row col-12">
+                                    <a class="gbtn danger"  data-toggle="modal" data-target="#reviewsModal">تقديم شكوى</a>
+                                    <a class="gbtn success"  data-toggle="modal" data-target="#ServiceReviewModal">تقييم العميل</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="side-page-footer Footer">
+                <div class="footer-container col-lg-11 col-12 row no-gutters">
+                    <div class="col-md-6 col-12 contact-div">
+                        <img class="logo" src="/Content/Images/ar-new.png" alt="Logo">
+                        <p class="fi flaticon-placeholder">مدينة الملك عبد العزيز للعلوم و التقنية - بادر الطائف</p>
+                        <p class="fi flaticon-telephone"><span class="telephone">00966 539395039</span></p>
+                        <p class="fi flaticon-email">career@tatbela.com</p>
+                    </div>
+                    <div class="col-md-6 col-12 company-div">
+                        <div class="side-align col-xl-11 col-12 company-div-container">
+                            <div class="subscribe-container row no-gutters">
+                                <h3 class="col-12">أحصل على أخر أخبارنا</h3>
+                                <div class="pl-0 pr-0 warning col-12 text-input-btn form-group fi flaticon-email">
+                                    <input type="text" name="subscribeNews" class=" form-control" id="subscribeNews" placeholder="إدخل البريد الإلكترونى الخاص بك">
+                                    <button class="submit-btn">إشترك</button>
+                                </div>
+                            </div>
+                            <div class="social-icons">
+                                <a class="fi flaticon-facebook-logo" href="https://www.facebook.com/tatbelaapp/"></a>
+                                <a class="fi flaticon-twitter-sign" href="https://mobile.twitter.com/TatbelaApp"></a>
+                                <a class="fi flaticon-instagram-logo" href="https://www.instagram.com/tatbelaapp/"></a>
+                                <a class="fi flaticon-social-google-plus-square-button" href="https://plus.google.com/105471210403958528362"></a>
+                                <a class="fi flaticon-youtube-logo" href="https://www.youtube.com/channel/UCagd7Pb01MZ0UcdA8vjTTJg"></a>
+                            </div>
+                            <div class="download-icons">
+                                <img class="download" src="/Content/Images/android.png" alt="Android">
+                                <img class="download" src="/Content/Images/ios.png" alt="Ios">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-footer col-12">
+                        <p> ملك مؤسسة المدى الأخير للتجارة</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!------------- Add Complain Modal ---------------->
+        <div class=" modal fade gmodal success" id="reviewsModal" tabindex="-1" role="dialog" aria-labelledby="reviewsModal" aria-hidden="true">
+            <div class="modal-md center-Modal modal-dialog modal-dialog-centered" role="document">
+                <form class="modal-content">
+                    <div class="special-header modal-header">
+                        <div class="modal-header-container col-12 row no-gutters ">
+                            <h3 class="fi flaticon-writing">تقديم شكوى</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12 row modal-body-container">
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="Respond">سبب الشكوى</label>
+                                <select class="form-control select-single" name="JournalType" id="JournalType">
+                                    <option> سبب الشكوى</option>
+                                    <option>سبب 1</option>
+                                    <option>سبب 2</option>
+                                    <option>سبب 3</option>
+                                    <option>سبب 4</option>
+                                </select>
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="help-Address">عنوان الشكوى</label>
+                                <input type="text" name="help-Address" class="form-control" id="help-Address" placeholder="عنوان الشكوى">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="help-Details">تفاصيل الشكوى</label>
+                                <input type="text" name="help-Details" class="form-control" id="help-Details" placeholder="تفاصيل الشكوى">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="OrderNumber">متعلقة بطلب</label>
+                                <select class="form-control select-single" name="OrderNumber" id="OrderNumber">
+                                    <option> الطلبات</option>
+                                    <option>طلب 1</option>
+                                    <option>طلب 2</option>
+                                    <option>طلب 3</option>
+                                    <option>طلب 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer-container col-12 row no-gutters ">
+                            <div class="footer-btns row no-gutters">
+                                <button class="gbtn-o success"><span calss="btn-text">تقديم</span></button>
+                                <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">إغلاق</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!------------- Service Review Modal ---------------->
+        <div class="modal fade" id="ServiceReviewModal" tabindex="-1" role="dialog" aria-labelledby="ServiceReviewModal" aria-hidden="true">
+            <div class="modal-md modal-dialog modal-dialog-centered" role="document">
+                <form class="modal-content msg-modal rating-modal">
+                    <div class="special-header modal-header">
+                        <button type="button" class="close fas fa-times" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="rating-title">تقييم العميل</h5>
+                        <select id="ClientRate">
+                            <option value="">0</option>
+                            <option value="1">نجمة</option>
+                            <option value="2">نجمتان</option>
+                            <option value="3">3 نجوم</option>
+                            <option value="4">4 نجوم</option>
+                            <option value="5">5 نجوم</option>
+                        </select>
+                        <div class="col-10 pl-0 pr-0  text-input form-group">
+                            <label for="Comments">التعليقات</label>
+                            <input type="text" name="Comments" class="form-control" id="Comments" placeholder="أضف تعليقاتك على العميل">
+                        </div>    
+                    </div>
+                    <div class="modal-footer">
+                        <button tabindex="0" class="gbtn" type="submit"><span class="MuiButton-label-2">إرسال</span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>

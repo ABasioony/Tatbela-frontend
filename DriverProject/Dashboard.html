@@ -1,0 +1,329 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="description"
+        content=" تتبيلة هو موقع الكترونى يتيح لك طلب اكل بيت صحى و نظيف اونلابن بكل سهولة فى كل انحاء المملكة العربية السعودية كما يتيح مشروع منزلى ناجح لربات المنزل و الطباخين">
+    <meta name="keywords"
+        content="اكل بيت, اكل بيتى , مشروع اكل بيتى , مشروع منزلى ناجح , موقع تتبيلة , تطبيق تتبيلة , اطلب اكل بيتى اونلاين , اكل بيتى فى السعودية ">
+    <link rel="shortcut icon" href="/Content/Images/favicon.ico">
+    <title>اكل بيت | اطلب اكل بيتى اونلاين | مشروعات منزلية - تتبيلة</title>
+
+    <!---------------------- Styles : Begin ------------------------->
+    <link rel="stylesheet" href="/Content/Css/styles.css">
+    <link rel="stylesheet" href="/Content/Css/ion.rangeSlider.min.css">
+    <!---------------------- Styles : End --------------------------->
+    <!---------------------- Scripts : Begin ------------------------>
+    <script src="/Content/Js/Plugins/jquery-3.2.1.min.js"></script>
+    <script src="/Content/Js/Plugins/jquery-ui.min.js"></script>
+    <script src="/Content/Js/Plugins/bootstrap.bundle.min.js"></script>
+    <!-- <script src="/Content/Js/Plugins/bootstrap.min.js"></script> -->
+    <script src="/Content/Js/Plugins/popper.min.js"></script>
+    <script src="/Content/Js/Plugins/owl.carousel.min.js"></script>
+    <script src="/Content/Js/Plugins/ion.rangeSlider.min.js"></script>
+    <script src="/Content/Js/Plugins/clamp.min.js"></script>
+    <script src="/Content/Js/Plugins/loadingoverlay.min.js"></script>
+    <script src="/Content/Js/Plugins/Select2/select2.full.min.js"></script>
+    <script src="/Content/Js/Plugins/Select2/i18n/ar.js"></script>
+    <script src="/Content/Js/Core.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
+    <!---------------------- Scripts : End -------------------------->
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <!---------------------- Header : Begin ------------------------>
+        <nav class="main-header row no-gutters col-12 has-background">
+            <div class="main-header-container col-lg-10 col-12 ">
+                <ul class="col header-tools">
+                    <li><a href="#">English</a></li>
+                    <li>
+                        <p>مرحبا بكم فى تتبيلة</p>
+                    </li>
+                </ul>
+                <div class="logo-container"><img alt="Tatbela" src="/Content/Images/ar-new-ws.png" class="Logo" /></div>
+                <ul class="col d-xl-flex d-lg-flex d-none header-authenticate">
+                    <!-- <li><a data-toggle="modal" data-target="#registerModal">أنضم لعائلة تتبيلة</a></li>
+                    <li><a>انشاء حساب</a></li>
+                    <li><a href="/Login.html">تسجيل دخول</a></li> -->
+                    <li class="user-op-list">
+                        <a id="userdropdownMenuButton" data-toggle="dropdown" data-target="UsermenuDrop"
+                            aria-haspopup="true" aria-expanded="false">
+                            <img src="/Content/Images/bg1.jpg">
+                            <p>محمد خليفة</p>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="userdropdownMenuButton" id="UsermenuDrop">
+                            <h6 class="dropdown-header">إدارة الحساب</h6>
+                            <a class="dropdown-item" href="/DriverProject/MyProfile.html">حسابى</a>
+                            <a class="dropdown-item" href="/Index.html">تسجيل خروج</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="white-icons col d-xl-none d-lg-none d-flex header-icons dropdown">
+                    <a class="icon-link fas fa-bars" id="dropdownMenuButton" data-toggle="dropdown"
+                        data-target="menuDrop" aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menuDrop">
+                        <h6 class="dropdown-header">إدارة الحساب</h6>
+                        <a class="profile-item">
+                            <img src="/Content/Images/bg1.jpg">
+                            <p>محمد خليفة</p>
+                        </a>
+                        <a class="dropdown-item" href="/DriverProject/MyProfile.html">حسابى</a>
+                        <a class="dropdown-item" href="/Index.html">تسجيل خروج</a>
+                        <h6 class="dropdown-header">الصفحات</h6>
+                        <a class="dropdown-item" href="/Index-Driver.html">الرئيسية</a>
+                        <a class="dropdown-item" href="/MarketCart.html">سلة المشتريات</a>
+                        <a class="dropdown-item" href="/DriverProject/DriverOrders.html">الطلبات</a>
+                        <a class="dropdown-item" href="/DriverProject/DriverOffers.html">العروض</a>
+                        <a class="dropdown-item" href="#">مدونة تتبيلة</a>
+                        <a class="dropdown-item" href="/Market.html">سوق تتبيلة</a>
+                        <a class="dropdown-item" href="#">إسأل تتبيلة</a>
+                        <a class="dropdown-item" href="/ConditionsAndTerms.html">الشروط و الاحكام</a>
+                        <a class="dropdown-item" href="/About.html">اعرف عنا</a>
+                        <a class="dropdown-item" href="#">اتصل بنا</a>
+                    </div>
+                </div>
+            </div>
+            <nav class="SubHeaderClass d-xl-flex d-lg-flex d-none sub-header row no-gutters col-lg-10 col-12 white-bg">
+                <a class=" fi icon-link flaticon-home" href="/Index-Driver.html"></a>
+                <ul class="main-menu">
+                    <li class="main-menu-item show-sm"><a class="fi flaticon-home"
+                            href="/Index-Driver.html">الرئيسية</a></li>
+                    <li class="main-menu-item show-sm"><a class="fi flaticon-supermarket-1" href="/MarketCart.html">سلة
+                            المشتريات</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-magnifier"
+                            href="/DriverProject/DriverOrders.html">الطلبات</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-cooker"
+                            href="/DriverProject/DriverOffers.html">العروض</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-writing">مدونة تتبيلة</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-writing" href="/Market.html">سوق تتبيلة</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-lifeguard">إسأل تتبيلة</a></li>
+                    <li class="main-menu-item"><a class="fas fa-list" href="/ConditionsAndTerms.html">الشروط و
+                            الاحكام</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-help-button-speech-bubble-with-question-mark"
+                            href="/About.html">اعرف عنا</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-old-typical-phone">اتصل بنا</a></li>
+                </ul>
+                <a class=" fi icon-link after-menu flaticon-supermarket-1" href="/MarketCart.html"><span>0</span></a>
+            </nav>
+        </nav>
+        <!---------------------- Header : End ------------------------>
+        <div class="main-data-container row no-gutters driver-dashboard">
+            <ul class="site-map row no-gutters col-10">
+                <li><a href="/Index-Driver.html">الصفحة الرئيسية</a></li>
+                <li class="current">العروض</li>
+            </ul>
+            <div
+                class="main-data-section-wrapper side-wrap row no-gutters col-xl-3 col-lg-4 col-11 set-loaction-wrapper filter-wrapper">
+                <div class="col-12 main-data-section row no-gutters ">
+                    <form class="sub-data-section col-12 row no-gutters set-location-form">
+                        <a class="sub-data-section-header">
+                            <h3>إختيار الموقع</h3>
+                            <span class="fas fa-minus side-wrap-section-toggle-btn"></span>
+                        </a>
+                        <div class="sub-data-section-body row col-12 no-gutters collpase show">
+                            <p class="section-desc">إختر المنطقة التى ستقوم بالتوصيل فيها</p>
+                            <button class="gbtn success col-12 curved-edge">إختيار الموقع الحالى</button>
+                            <div class="form-devider col-12 row no-gutters">
+                                <p>أو</p>
+                                <span></span>
+                            </div>
+
+                            <div class="col-12 form-group">
+                                <select class="form-control choose-city" name="city">
+                                    <option></option>
+                                    <option>مدينة 1</option>
+                                    <option>مدينة 2</option>
+                                    <option>مدينة 3</option>
+                                    <option>مدينة 4</option>
+                                    <option>مدينة 5</option>
+                                </select>
+                            </div>
+                            <div class="col-12 form-group ">
+                                <select class="form-control choose-region" name="region">
+                                    <option></option>
+                                    <option>منطقة 1</option>
+                                    <option>منطقة 2</option>
+                                    <option>منطقة 3</option>
+                                    <option>منطقة 4</option>
+                                    <option>منطقة 5</option>
+                                </select>
+                            </div>
+                            <button class="gbtn success col-12 curved-edge warning">البحث عن طلبات</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="main-data-section-wrapper main-wrap row no-gutters col-xl-7 col-lg-6 col-11">
+                <div class="col-12 main-data-section row no-gutters no-back">
+                    <div class="sub-data-section col-12 row no-gutters map-section" id="mapadd">
+                    </div>
+                    <ul class="delivery-orders-list col-12 row no-gutters mt-2">
+                        <li class="offer row  no-gutters col-12">
+                            <div class="offer-data row no-gutters ">
+                                <img src="/Content/Images/user-m.png">
+                                <div class="header-data col">
+                                    <div class="data-main-item row no-gutters">
+                                        <h3>محمد خليفة محمد</h3>
+                                        <div class="row rate  no-gutters"><span class="fas fa-star"></span><span
+                                                class="fas fa-star"></span><span class="fas fa-star"></span><span
+                                                class="fas fa-star"></span><span class="fas fa-star"></span></div>
+                                    </div>
+                                    <div class="data-sub-item row no-gutters">
+                                        <div class="sub-item ">
+                                            <p class="mr-0 ml-0 fi flaticon-pin-1"> طلب رقم #561</p>
+                                        </div>
+                                        <div class="sub-item row col-12">
+                                            <div class="locations">
+                                                <p class="location-item"><span>من</span>رشدي, الاسكندرية</p>
+                                                <p class="location-item"><span>إلى</span>رشدي, الاسكندرية</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offer-details">
+                                <p class="cost col-12">150<span>ريال</span></p>
+                                <button class="gbtn-o success list-btn">قبول</button>
+                                <button class="gbtn-o danger list-btn"
+                                    onclick="ShowMsgmodal(['danger','fi flaticon-delete-button',' هل أنت متأكد من رفض هذا الطلب ؟ ',function Accept(){},function cancle(){}])">رفض</button>
+                                <button class="gbtn-o warning list-btn" data-toggle="modal"
+                                    data-target="#EditDeliveryCostModal">تعديل</button>
+                            </div>
+                        </li>
+                        <li class="offer row  no-gutters col-12">
+                            <div class="offer-data row no-gutters ">
+                                <img src="/Content/Images/user-m.png">
+                                <div class="header-data col">
+                                    <div class="data-main-item row no-gutters">
+                                        <h3>محمد خليفة محمد</h3>
+                                        <div class="row rate  no-gutters"><span class="fas fa-star"></span><span
+                                                class="fas fa-star"></span><span class="fas fa-star"></span><span
+                                                class="fas fa-star"></span><span class="fas fa-star"></span></div>
+                                    </div>
+                                    <div class="data-sub-item row no-gutters">
+                                        <div class="sub-item ">
+                                            <p class="mr-0 ml-0 fi flaticon-pin-1"> طلب رقم #561</p>
+                                        </div>
+                                        <div class="sub-item row col-12">
+                                            <div class="locations">
+                                                <p class="location-item"><span>من</span>رشدي, الاسكندرية</p>
+                                                <p class="location-item"><span>إلى</span>رشدي, الاسكندرية</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offer-details">
+                                <p class="cost col-12">150<span>ريال</span></p>
+                                <button class="gbtn-o success list-btn">قبول</button>
+                                <button class="gbtn-o danger list-btn"
+                                    onclick="ShowMsgmodal(['danger','fi flaticon-delete-button',' هل أنت متأكد من رفض هذا الطلب ؟ ',function Accept(){},function cancle(){}])">رفض</button>
+                                <button class="gbtn-o warning list-btn" data-toggle="modal"
+                                    data-target="#EditDeliveryCostModal">تعديل</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="side-page-footer Footer">
+            <div class="footer-container col-lg-11 col-12 row no-gutters">
+                <div class="col-md-6 col-12 contact-div">
+                    <img class="logo" src="/Content/Images/ar-new.png" alt="Logo">
+                    <p class="fi flaticon-placeholder">مدينة الملك عبد العزيز للعلوم و التقنية - بادر الطائف</p>
+                    <p class="fi flaticon-telephone"><span class="telephone">00966 539395039</span></p>
+                    <p class="fi flaticon-email">career@tatbela.com</p>
+                </div>
+                <div class="col-md-6 col-12 company-div">
+                    <div class="side-align col-xl-11 col-12 company-div-container">
+                        <div class="subscribe-container row no-gutters">
+                            <h3 class="col-12">أحصل على أخر أخبارنا</h3>
+                            <div class="pl-0 pr-0 warning col-12 text-input-btn form-group fi flaticon-email">
+                                <input type="text" name="subscribeNews" class=" form-control" id="subscribeNews"
+                                    placeholder="إدخل البريد الإلكترونى الخاص بك">
+                                <button class="submit-btn">إشترك</button>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a class="fi flaticon-facebook-logo" href="https://www.facebook.com/tatbelaapp/"></a>
+                            <a class="fi flaticon-twitter-sign" href="https://mobile.twitter.com/TatbelaApp"></a>
+                            <a class="fi flaticon-instagram-logo" href="https://www.instagram.com/tatbelaapp/"></a>
+                            <a class="fi flaticon-social-google-plus-square-button"
+                                href="https://plus.google.com/105471210403958528362"></a>
+                            <a class="fi flaticon-youtube-logo"
+                                href="https://www.youtube.com/channel/UCagd7Pb01MZ0UcdA8vjTTJg"></a>
+                        </div>
+                        <div class="download-icons">
+                            <img class="download" src="/Content/Images/android.png" alt="Android">
+                            <img class="download" src="/Content/Images/ios.png" alt="Ios">
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-footer col-12">
+                    <p> ملك مؤسسة المدى الأخير للتجارة</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!------------- Edit Delivery Cost Modal ---------------->
+    <div class="modal fade gmodal warning" id="EditDeliveryCostModal" role="dialog"
+        aria-labelledby="EditDeliveryCostModal" aria-hidden="true">
+        <div class="modal-md center-Modal modal-dialog modal-dialog-centered" role="document">
+            <form class="modal-content">
+                <div class="special-header modal-header">
+                    <div class="modal-header-container col-12 row no-gutters ">
+                        <h3 class="fi flaticon-credit-card">تعديل سعر توصيل</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">×</span></button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="col-12 row modal-body-container">
+                        <div class="col-12  text-input lightGray form-group">
+                            <label for="CostEdit">السعر</label>
+                            <input type="text" name="CostEdit" class="form-control" id="CostEdit" placeholder="السعر">
+                        </div>
+                        <div class="col-12  text-input lightGray form-group">
+                            <label for="CostDetailsEdit">ملاحظات السعر</label>
+                            <textarea name="CostDetailsEdit" rows="3" class="form-control" id="CostDetailsEdit"
+                                placeholder="ملاحظات"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-footer-container col-12 row no-gutters ">
+                        <div class="footer-btns row no-gutters">
+                            <button class="gbtn-o warning"><span calss="btn-text">تعديل</span></button>
+                            <button class="gbtn-o dark"><span calss="btn-text"
+                                    data-dismiss="modal">إغلاق</span></button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade" id="MsgModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-md modal-dialog modal-dialog-centered" role="document">
+            <form class="modal-content msg-modal">
+                <div class="special-header modal-header">
+                    <button type="button" class="close fas fa-times" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-icon"><span class="far fa-trash-alt"></span></div>
+                    <p class="col-lg-10 col-12 message"> </p>
+                </div>
+                <div class="modal-footer mt-0 pt-0">
+                    <a class="gbtn-o success approve-btn">إستمرار</a>
+                    <a class="gbtn-o dark cancle-btn">رجوع</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

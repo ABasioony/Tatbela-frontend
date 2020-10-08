@@ -1,0 +1,130 @@
+/* Start Font Face */
+@font-face{
+	font-family: 'Ge Ss Two Bold';
+	src: url('fonts/ge-ss-two-bold.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Ge Ss Two Medium';
+	src: url('fonts/ge-ss-two-medium.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Ge Ss Two Light';
+	src: url('fonts/ge-ss-two-light.ttf') format('truetype');
+}
+/* End Font Face */
+/* Start Global */
+*{
+	padding: 0;
+	margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	font-weight: 400;
+}
+body{
+	font-family: 'Ge Ss Two Bold', 'Ge Ss Two Medium', 'Ge Ss Two Light' ;
+}
+
+.contain{
+	width: 1200px;
+}
+/* End Global */
+
+/* Start Cover Image*/
+.cover img {
+    width: 100%;
+}
+/* End Cover Image*/
+.main{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.logo img{
+	width: 100%;
+	max-width: 200px;
+
+}
+
+.reg img{
+	width: 100%;
+	max-width: 450px;
+}
+.text p{
+	font-size: 25px;
+	color: #b30000;
+}
+
+.text p span{
+	font-size: 25px;
+	color: #3c8011;
+}
+
+h3{
+	color: #3c8011;
+}
+.items img{
+	width: 100%;
+	max-width: 200px;
+	padding-right: 5px;
+}
+.footer{
+	margin-top: 20px;
+}
+.footer p{
+	color: #b30000;
+	font-size: 27px;
+}
+/* Start Media */
+@media (max-width: 767px){
+	.contain{
+		width: 483px;
+	}
+    .main{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    /* Small Screen Rules */
+    .contain{
+        width: 750px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    /* Medium Screen Rules */
+    .contain{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px){
+    /* Large Screen Rules */
+    .contain{
+        width: 1170px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+	.reg{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		flex-wrap: wrap;
+		order: 1;
+		margin: 0;
+	}
+	.reg img{
+		max-width: 350px;
+	}
+	.items{
+		order: 0;
+	}
+
+}
+/* End Media */

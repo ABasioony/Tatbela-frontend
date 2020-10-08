@@ -1,0 +1,824 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+        <meta name="description" content=" تتبيلة هو موقع الكترونى يتيح لك طلب اكل بيت صحى و نظيف اونلابن بكل سهولة فى كل انحاء المملكة العربية السعودية كما يتيح مشروع منزلى ناجح لربات المنزل و الطباخين"  >
+        <meta name="keywords" content="اكل بيت, اكل بيتى , مشروع اكل بيتى , مشروع منزلى ناجح , موقع تتبيلة , تطبيق تتبيلة , اطلب اكل بيتى اونلاين , اكل بيتى فى السعودية ">  
+        <link rel="shortcut icon" href="/Content/Images/favicon.ico">
+        <title>اكل بيت | اطلب اكل بيتى اونلاين | مشروعات منزلية - تتبيلة</title>
+
+        <!---------------------- Styles : Begin ------------------------->
+        <link rel="stylesheet" href="/Content/Css/styles.css">
+        <!---------------------- Styles : End --------------------------->
+
+        <!---------------------- Scripts : Begin ------------------------>
+        <script src="/Content/Js/Plugins/jquery-3.2.1.min.js"></script>
+        <script src="/Content/Js/Plugins/jquery-ui.min.js"></script>
+        <script src="/Content/Js/Plugins/bootstrap.bundle.min.js"></script>
+        <!-- <script src="/Content/Js/Plugins/bootstrap.min.js"></script> -->
+        <script src="/Content/Js/Plugins/popper.min.js"></script>
+        <script src="/Content/Js/Plugins/owl.carousel.min.js"></script>
+        <script src="/Content/Js/Core.js"></script>
+        <!---------------------- Scripts : End -------------------------->
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <!---------------------- Header : Begin ------------------------>
+            <nav class="main-header row no-gutters col-12 has-background">
+                <div class="main-header-container col-lg-10 col-12 ">
+                    <ul class="col header-tools">
+                        <li><a href="#">English</a></li>
+                        <li><p>مرحبا بكم فى تتبيلة</p></li>
+                    </ul>
+                    <div class="logo-container"><img alt="Tatbela" src="/Content/Images/ar-new-ws.png" class="Logo"/></div>
+                    <ul class="col d-xl-flex d-lg-flex d-none header-authenticate">
+                        <li class="joinTatbelaListItem">
+                            <a id="joinTatbelaBtn" data-toggle="dropdown" data-target="joinTatbelaDrop" aria-haspopup="true" aria-expanded="false">أنضم لعائلة تتبيلة</a>
+                            <div class="dropdown-menu" aria-labelledby="joinTatbelaBtn" id="joinTatbelaDrop">
+                                <a class="dropdown-item" href="/BecomeAChef-BankAccount-GeneralData.html">تسجيل طباخ</a>
+                                <a class="dropdown-item" href="/DriverProject/DriverRegisteration.html">تسجيل سائق</a>
+                            </div>
+                        </li>
+                        <!-- <li><a href="/ConditionsAndTerms.html">الشروط و الاحكام</a></li> -->
+                        <li><a href="/CreateAccount.html">انشاء حساب</a></li>
+                        <li><a href="/Login.html">تسجيل دخول</a></li>
+                    </ul>
+
+                    <div class="white-icons col d-xl-none d-lg-none d-flex header-icons dropdown">
+                        <!-- <li> <a href="/ConditionsAndTerms.html">الشروط و الاحكام</a> </li>
+                        <a class="fi icon-link flaticon-help-button-speech-bubble-with-question-mark" href="/About.html"></a> -->
+                        <a class="icon-link fas fa-bars" id="dropdownMenuButton" data-toggle="dropdown" data-target="menuDrop" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menuDrop">
+                            <a class="dropdown-item" href="/Index.html">الرئيسية</a>
+                            <a class="dropdown-item" href="/Clientproject/Cart.html">سلة المشتريات</a>
+                            <a class="dropdown-item" href="/ClientProject/Finder.html">إبحث عن طباخ</a>
+                            <a class="dropdown-item" href="/Clientproject/OurChefs.html">طباخينا</a>
+                            <a class="dropdown-item" href="#">مدونة تتبيلة</a>
+                            <a class="dropdown-item" href="/Market.html">سوق تتبيلة</a>
+                            <a class="dropdown-item" href="#">إسأل تتبيلة</a>
+                            <a class="dropdown-item" href="/ConditionsAndTerms.html">الشروط و الاحكام</a>
+                            <a class="dropdown-item" href="/About.html">اعرف عنا</a>
+                            <a class="dropdown-item" href="#">اتصل بنا</a>
+                            <h6 class="dropdown-header">إدارة الحساب</h6>
+                            <a class="dropdown-item" href="/BecomeAChef-BankAccount-GeneralData.html">أنضم لعائلة تتبيلة</a>
+                            <a class="dropdown-item" href="/CreateAccount.html">إنشاء حساب</a>
+                            <a class="dropdown-item" href="/Login.html">تسجيل دخول</a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="SubHeaderClass d-xl-flex d-lg-flex d-none sub-header row no-gutters col-lg-10 col-12 white-bg">
+                    <a class=" fi icon-link flaticon-home" href="/Index.html"></a>
+                    <ul class="main-menu">
+                        <li class="main-menu-item show-sm"><a class="fi flaticon-home" href="/Index.html">الرئيسية</a></li>
+                        <li class="main-menu-item show-sm"><a class="fi flaticon-supermarket-1" href="/Clientproject/Cart.html">سلة المشتريات</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-magnifier" href="/ClientProject/Finder.html">إبحث عن طباخ</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-cooker" href="/Clientproject/OurChefs.html">طباخينا</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-writing" >مدونة تتبيلة</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-writing" href="/Market.html">سوق تتبيلة</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-lifeguard" >إسأل تتبيلة</a></li>
+                        <li class="main-menu-item"><a class="fas fa-list" href="/ConditionsAndTerms.html">الشروط و الاحكام</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-help-button-speech-bubble-with-question-mark" href="/About.html">اعرف عنا</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-old-typical-phone" >اتصل بنا</a></li>
+                    </ul>
+                    <a class=" fi icon-link after-menu flaticon-supermarket-1" href="/MarketCart.html"><span>0</span></a>
+                </nav>
+            </nav>
+            <!---------------------- Header : End ------------------------>
+            <div class="main-data-container row no-gutters">
+                <div class="main-data-section-wrapper row no-gutters col-lg-10 col-11 p-0 main-adv-div">
+                    <div class="owl-carousel owl-theme wide-slider col-xl-9" id="MainSlider">
+                        <a class="item"  href="/MarketSearch.html"><img src="/Content/Images/MianSlider/Adv.jpg"></a>
+                        <a class="item"  href="/MarketSearch.html"><img src="/Content/Images/MianSlider/Adv2.jpg"></a>
+                        <a class="item"  href="/MarketSearch.html"><img  src="/Content/Images/MianSlider/Adv3.jpg"></a>
+                    </div>
+                    <div class=" col-xl-3 row no-gutters main-side-adv">
+                        <div class="md-adver">
+                            <img src="/Content/Images/Meals/M2.jpg" title="">
+                        </div>
+                        <div class="sm-adv">
+                            <img src="/Content/Images/Meals/M3.jpg" title="">
+                        </div>
+                    </div>
+                </div>
+                <div class=" home-section col-12 row no-gutters">
+                    <div class="col-lg-10 section-header row no-gutters">
+                        <h2> أفضل <span>العروض </span><span class="border-b"></span></h2>
+                    </div>
+                    <div class="data-container row no-gutters slider-container col-lg-10 col-12">
+                        <div class="owl-carousel owl-theme offers-slider" id="Offers">
+                            <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                <div class="offer-value">
+                                    <p>خصم</p>
+                                    <p>50%</p>
+                                    <span class="angle-right"></span>
+                                    <span class="angle-left"></span>
+                                </div>
+                                <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                <img src="/Content/Images/Products/PR1.jpg">
+                                <div class="offer-desc">
+                                    
+                                    <h4 title="سكر فاخر - الأسرة" data-toggle="tooltip">سكر فاخر - الأسرة</h4>
+                                    <span class="supplier">كارفور</span>
+                                    <div class="prices">
+                                        <p class="original-price"> 100.00 <span>ريال</span></p>
+                                        <p class="new-price"> 50.00 <span>ريال</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                <div class="offer-value">
+                                    <p>خصم</p>
+                                    <p>50%</p>
+                                    <span class="angle-right"></span>
+                                    <span class="angle-left"></span>
+                                </div>
+                                <img class="supplier-logo" src="Content/Images/Suppliers/SP2.jpg">
+                                <img src="/Content/Images/Products/PR2.jpg">
+                                <div class="offer-desc">
+                                    <h4 title="أرز أبيض - المطبخ" data-toggle="tooltip">أرز أبيض - المطبخ</h4>
+                                    <span class="supplier">بندة ماركت</span>
+                                    <div class="prices">
+                                        <p class="original-price"> 50.00 <span>ريال</span></p>
+                                        <p class="new-price"> 25.00 <span>ريال</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                <div class="offer-value">
+                                    <p>خصم</p>
+                                    <p>20%</p>
+                                    <span class="angle-right"></span>
+                                    <span class="angle-left"></span>
+                                </div>
+                                <img class="supplier-logo" src="Content/Images/Suppliers/SP3.png">
+                                <img src="/Content/Images/Products/PR3.jpg">
+                                <div class="offer-desc">
+                                    <h4 title="أرز أبيض - الضحى" data-toggle="tooltip">أرز أبيض - الضحى</h4>
+                                    <span class="supplier">فتح الله ماركت</span>
+                                    <div class="prices">
+                                        <p class="original-price"> 50.00 <span>ريال</span></p>
+                                        <p class="new-price"> 40.00 <span>ريال</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                <div class="offer-value">
+                                    <p>خصم</p>
+                                    <p>20%</p>
+                                    <span class="angle-right"></span>
+                                    <span class="angle-left"></span>
+                                </div>
+                                <img class="supplier-logo" src="Content/Images/Suppliers/SP3.png">
+                                <img src="/Content/Images/Products/PR4.jpg">
+                                <div class="offer-desc">
+                                    <h4 title="مكرونة خواتم - المطبخ" data-toggle="tooltip">مكرونة خواتم - المطبخ</h4>
+                                    <span class="supplier">فتح الله ماركت</span>
+                                    <div class="prices">
+                                        <p class="original-price"> 50.00 <span>ريال</span></p>
+                                        <p class="new-price"> 40.00 <span>ريال</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                <div class="offer-value">
+                                    <p>خصم</p>
+                                    <p>20%</p>
+                                    <span class="angle-right"></span>
+                                    <span class="angle-left"></span>
+                                </div>
+                                <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                <img src="/Content/Images/Products/PR5.jpg">
+                                <div class="offer-desc">
+                                    <h4 title="مكرونة فيوزيللى - رجينا" data-toggle="tooltip">مكرونة فيوزيللى - رجينا</h4>
+                                    <span class="supplier">كارفور</span>
+                                    <div class="prices">
+                                        <p class="original-price"> 100.00 <span>ريال</span></p>
+                                        <p class="new-price"> 80.00 <span>ريال</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                <div class="offer-value">
+                                    <p>خصم</p>
+                                    <p>50%</p>
+                                    <span class="angle-right"></span>
+                                    <span class="angle-left"></span>
+                                </div>
+                                <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                <img src="/Content/Images/Products/PR6.jpg">
+                                <div class="offer-desc">
+                                    <h4 title="سمن أصفر - الحلوب" data-toggle="tooltip">سمن أصفر - الحلوب</h4>
+                                    <span class="supplier">كارفور</span>
+                                    <div class="prices">
+                                        <p class="original-price"> 100.00 <span>ريال</span></p>
+                                        <p class="new-price"> 50.00 <span>ريال</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                <div class="offer-value">
+                                    <p>خصم</p>
+                                    <p>50%</p>
+                                    <span class="angle-right"></span>
+                                    <span class="angle-left"></span>
+                                </div>
+                                <img class="supplier-logo" src="Content/Images/Suppliers/SP2.jpg">
+                                <img src="/Content/Images/Products/PR7.jpg">
+                                <div class="offer-desc">
+                                    <h4 title="ذرة حلوة - أمريكانا" data-toggle="tooltip">ذرة حلوة - أمريكانا</h4>
+                                    <span class="supplier">بندة ماركت</span>
+                                    <div class="prices">
+                                        <p class="original-price"> 100.00 <span>ريال</span></p>
+                                        <p class="new-price"> 50.00 <span>ريال</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                <div class="offer-value">
+                                    <p>خصم</p>
+                                    <p>20%</p>
+                                    <span class="angle-right"></span>
+                                    <span class="angle-left"></span>
+                                </div>
+                                <img class="supplier-logo" src="Content/Images/Suppliers/SP2.jpg">
+                                <img src="/Content/Images/Products/PR8.jpg">
+                                <div class="offer-desc">
+                                    <h4 title="مكرونة فيوزيللى - مصرية" data-toggle="tooltip">مكرونة فيوزيللى - مصرية</h4>
+                                    <span class="supplier">بندة ماركت</span>
+                                    <div class="prices">
+                                        <p class="original-price"> 100.00 <span>ريال</span></p>
+                                        <p class="new-price"> 80.00 <span>ريال</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" home-section col-12 row no-gutters">
+                    <div class="col-lg-10 side-header mb-0 section-header row no-gutters">
+                        <h2>أخر <span>العروض </span><span class="border-b"></span></h2>
+                    </div>
+                    <div class="data-container row no-gutters slider-container col-lg-10 col-12 latest-tabe-conatiner">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="foods-tab" data-toggle="tab" href="#Foods" role="tab" aria-controls="Foods" aria-selected="true">المنتجات الغذائية</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" id="KitchenTools-tab" data-toggle="tab" href="#KitchenTools" role="tab" aria-controls="KitchenTools" aria-selected="true">أدوات المطبخ</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" id="Appliances-tab" data-toggle="tab" href="#Appliances" role="tab" aria-controls="Appliances" aria-selected="true">الأجهزة الكهربائية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="Consumables-tab" data-toggle="tab" href="#Consumables" role="tab" aria-controls="Consumables" aria-selected="true">مستهلكات</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="Foods" role="tabpanel" aria-labelledby="foods-tab">
+                                <div class="tab-pane-container">
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/PR1.jpg">
+                                        <div class="offer-desc">
+                                            
+                                            <h4 title="سكر فاخر - الأسرة" data-toggle="tooltip">سكر فاخر - الأسرة</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP2.jpg">
+                                        <img src="/Content/Images/Products/PR2.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="أرز أبيض - المطبخ" data-toggle="tooltip">أرز أبيض - المطبخ</h4>
+                                            <span class="supplier">بندة ماركت</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 50.00 <span>ريال</span></p>
+                                                <p class="new-price"> 25.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>20%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP3.png">
+                                        <img src="/Content/Images/Products/PR3.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="أرز أبيض - الضحى" data-toggle="tooltip">أرز أبيض - الضحى</h4>
+                                            <span class="supplier">فتح الله ماركت</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 50.00 <span>ريال</span></p>
+                                                <p class="new-price"> 40.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>20%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP3.png">
+                                        <img src="/Content/Images/Products/PR4.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="مكرونة خواتم - المطبخ" data-toggle="tooltip">مكرونة خواتم - المطبخ</h4>
+                                            <span class="supplier">فتح الله ماركت</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 50.00 <span>ريال</span></p>
+                                                <p class="new-price"> 40.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>20%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/PR5.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="مكرونة فيوزيللى - رجينا" data-toggle="tooltip">مكرونة فيوزيللى - رجينا</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 80.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/PR6.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="سمن أصفر - الحلوب" data-toggle="tooltip">سمن أصفر - الحلوب</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP2.jpg">
+                                        <img src="/Content/Images/Products/PR7.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="ذرة حلوة - أمريكانا" data-toggle="tooltip">ذرة حلوة - أمريكانا</h4>
+                                            <span class="supplier">بندة ماركت</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>20%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP2.jpg">
+                                        <img src="/Content/Images/Products/PR8.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="مكرونة فيوزيللى - مصرية" data-toggle="tooltip">مكرونة فيوزيللى - مصرية</h4>
+                                            <span class="supplier">بندة ماركت</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 80.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/PR1.jpg">
+                                        <div class="offer-desc">
+                                            
+                                            <h4 title="سكر فاخر - الأسرة" data-toggle="tooltip" >سكر فاخر - الأسرة</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP2.jpg">
+                                        <img src="/Content/Images/Products/PR2.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="أرز أبيض - المطبخ" data-toggle="tooltip">أرز أبيض - المطبخ</h4>
+                                            <span class="supplier">بندة ماركت</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 50.00 <span>ريال</span></p>
+                                                <p class="new-price"> 25.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="show-more" href="/MarketSearch.html">عرض المزيد</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show " id="KitchenTools" role="tabpanel" aria-labelledby="KitchenTools-tab">
+                                <div class="tab-pane-container">
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/KitchenTools/PR1_0.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="طنجرة ضغط 6 ليتر من الستانلس ستيل - تيفال كليبسو" data-toggle="tooltip">طنجرة ضغط 6 ليتر من الستانلس ستيل - تيفال كليبسو</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/KitchenTools/PR2_0.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="طقم 11قطع لمن نيوفلام" data-toggle="tooltip">طقم 11قطع لمن نيوفلام</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/KitchenTools/PR3_1.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="قطاعات بيض - راج" data-toggle="tooltip">قطاعات بيض - راج</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/KitchenTools/PR4_0.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="طنجرة مع غطاء - بريستيج كلاسيك" data-toggle="tooltip">طنجرة مع غطاء - بريستيج كلاسيك</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/KitchenTools/PR5_0.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="مقص دواجن - بريستيج" data-toggle="tooltip">مقص دواجن - بريستيج </h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/KitchenTools/PR6_1.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="عصارة برتقال - بريستيج" data-toggle="tooltip">عصارة برتقال - بريستيج</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="show-more" href="/MarketSearch.html">عرض المزيد</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show " id="Appliances" role="tabpanel" aria-labelledby="Appliances-tab">
+                                <div class="tab-pane-container">
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>17%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/Appliances/PR1_0.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="فرن ميكرووف 20 لتر -  بلاك اند ديكر" data-toggle="tooltip">فرن ميكرووف 20 لتر -  بلاك اند ديكر</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 239.00 <span>ريال</span></p>
+                                                <p class="new-price"> 199.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>17%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/Appliances/PR2_0.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="عصارة طرد مركزي ستانلس ستيل -  مولينكس" data-toggle="tooltip">عصارة طرد مركزي ستانلس ستيل -  مولينكس</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 239.00 <span>ريال</span></p>
+                                                <p class="new-price"> 199.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>17%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/Appliances/PR3_0.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title=" محضرة الطعام متعددة الوظائف مختلط -  مولينكس" data-toggle="tooltip"> محضرة الطعام متعددة الوظائف مختلط -  مولينكس</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 239.00 <span>ريال</span></p>
+                                                <p class="new-price"> 199.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>25%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/Appliances/PR4_0.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="غسالة صحون بـ6 انظمة -  بوش" data-toggle="tooltip">غسالة صحون بـ6 انظمة -  بوش</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price">3,149.00<span>ريال</span></p>
+                                                <p class="new-price">2,350.00<span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>46%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/Appliances/PR5_0.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="مايكروويف ستانلس ستيل بشواية سفلية" data-toggle="tooltip">مايكروويف ستانلس ستيل بشواية سفلية</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price">2,414.00<span>ريال</span></p>
+                                                <p class="new-price">1,302.00<span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="show-more" href="/MarketSearch.html">عرض المزيد</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show " id="Consumables" role="tabpanel" aria-labelledby="Consumables-tab">
+                                <div class="tab-pane-container">
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/PR9.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="ورق تنشيف - فاين" data-toggle="tooltip">ورق تنشيف - فاين</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP1.png">
+                                        <img src="/Content/Images/Products/PR10.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="ورق تنشيف - فاين" data-toggle="tooltip">ورق تنشيف - فاين</h4>
+                                            <span class="supplier">كارفور</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP2.jpg">
+                                        <img src="/Content/Images/Products/PR11.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="علبة لحفظ الطعام" data-toggle="tooltip">علبة لحفظ الطعام</h4>
+                                            <span class="supplier">بندة ماركت</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP3.png">
+                                        <img src="/Content/Images/Products/PR12.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="علبة لحفظ الطعام" data-toggle="tooltip">علبة لحفظ الطعام</h4>
+                                            <span class="supplier">فتح الله ماركت</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item row no-gutters" href="/MarketItemDetails.html">
+                                        <div class="offer-value">
+                                            <p>خصم</p>
+                                            <p>50%</p>
+                                            <span class="angle-right"></span>
+                                            <span class="angle-left"></span>
+                                        </div>
+                                        <img class="supplier-logo" src="Content/Images/Suppliers/SP3.png">
+                                        <img src="/Content/Images/Products/PR13.jpg">
+                                        <div class="offer-desc">
+                                            <h4 title="مرشح المياه للسلطة" data-toggle="tooltip"> مرشح المياه للسلطة</h4>
+                                            <span class="supplier">فتح الله ماركت</span>
+                                            <div class="prices">
+                                                <p class="original-price"> 100.00 <span>ريال</span></p>
+                                                <p class="new-price"> 50.00 <span>ريال</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="show-more" href="/MarketSearch.html">عرض المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" home-section col-12 row no-gutters">
+                    <div class="col-lg-10 section-header row no-gutters">
+                        <h2> شركاء <span>تتبيلة </span><span class="border-b"></span></h2>
+                    </div>
+                    <div class="data-container row no-gutters slider-container col-lg-10 col-12 no-br">
+                        <div class="owl-carousel owl-theme offers-suppliers-slider" id="OffersSuppliers">
+                            <a class="item row no-gutters" href="/MarketSearch.html"><img src="/Content/Images/Suppliers/SP1.png"></a>
+                            <a class="item row no-gutters" href="/MarketSearch.html"><img src="/Content/Images/Suppliers/SP2.jpg"></a>
+                            <a class="item row no-gutters" href="/MarketSearch.html"><img src="/Content/Images/Suppliers/SP3.png"></a>
+                            <a class="item row no-gutters" href="/MarketSearch.html"><img src="/Content/Images/Suppliers/SP4.png"></a>
+                            <a class="item row no-gutters" href="/MarketSearch.html"><img src="/Content/Images/Suppliers/SP5.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="side-page-footer Footer">
+                <div class="footer-container col-lg-11 col-12 row no-gutters">
+                    <div class="col-md-6 col-12 contact-div">
+                        <img class="logo" src="/Content/Images/ar-new.png" alt="Logo">
+                        <p class="fi flaticon-placeholder">مدينة الملك عبد العزيز للعلوم و التقنية - بادر الطائف</p>
+                        <p class="fi flaticon-telephone"><span class="telephone">00966 539395039</span></p>
+                        <p class="fi flaticon-email">career@tatbela.com</p>
+                    </div>
+                    <div class="col-md-6 col-12 company-div">
+                        <div class="side-align col-xl-11 col-12 company-div-container">
+                            <div class="subscribe-container row no-gutters">
+                                <h3 class="col-12">أحصل على أخر أخبارنا</h3>
+                                <div class="pl-0 pr-0 warning col-12 text-input-btn form-group fi flaticon-email">
+                                    <input type="text" name="subscribeNews" class=" form-control" id="subscribeNews" placeholder="إدخل البريد الإلكترونى الخاص بك">
+                                    <button class="submit-btn">إشترك</button>
+                                </div>
+                            </div>
+                            <div class="social-icons">
+                                <a class="fi flaticon-facebook-logo" href="https://www.facebook.com/tatbelaapp/"></a>
+                                <a class="fi flaticon-twitter-sign" href="https://mobile.twitter.com/TatbelaApp"></a>
+                                <a class="fi flaticon-instagram-logo" href="https://www.instagram.com/tatbelaapp/"></a>
+                                <a class="fi flaticon-social-google-plus-square-button" href="https://plus.google.com/105471210403958528362"></a>
+                                <a class="fi flaticon-youtube-logo" href="https://www.youtube.com/channel/UCagd7Pb01MZ0UcdA8vjTTJg"></a>
+                            </div>
+                            <div class="download-icons">
+                                <img class="download" src="/Content/Images/android.png" alt="Android">
+                                <img class="download" src="/Content/Images/ios.png" alt="Ios">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-footer col-12">
+                        <p> ملك مؤسسة المدى الأخير للتجارة</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,635 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+        <meta name="description" content=" تتبيلة هو موقع الكترونى يتيح لك طلب اكل بيت صحى و نظيف اونلابن بكل سهولة فى كل انحاء المملكة العربية السعودية كما يتيح مشروع منزلى ناجح لربات المنزل و الطباخين"  >
+        <meta name="keywords" content="اكل بيت, اكل بيتى , مشروع اكل بيتى , مشروع منزلى ناجح , موقع تتبيلة , تطبيق تتبيلة , اطلب اكل بيتى اونلاين , اكل بيتى فى السعودية ">  
+        <link rel="shortcut icon" href="/Content/Images/favicon.ico">
+        <title>اكل بيت | اطلب اكل بيتى اونلاين | مشروعات منزلية - تتبيلة</title>
+
+        <!---------------------- Styles : Begin ------------------------->
+        <link rel="stylesheet" href="/Content/Css/styles.css">
+        <link rel="stylesheet" href="/Content/Css/ion.rangeSlider.min.css">
+        <link rel="stylesheet" href="/Content/Css/bootstrap-datepicker.min.css">
+        <!---------------------- Styles : End --------------------------->
+
+        <!---------------------- Scripts : Begin ------------------------>
+        <script src="/Content/Js/Plugins/jquery-3.2.1.min.js"></script>
+        <script src="/Content/Js/Plugins/jquery-ui.min.js"></script>
+        <script src="/Content/Js/Plugins/bootstrap.bundle.min.js"></script>
+        <script src="/Content/Js/Plugins/bootstrap.min.js"></script>
+        <script src="/Content/Js/Plugins/popper.min.js"></script>
+        <script src="/Content/Js/Plugins/owl.carousel.min.js"></script>
+        <script src="/Content/Js/Plugins/ion.rangeSlider.min.js"></script>
+        <script src="/Content/Js/Plugins/bootstrap-datepicker.min.js"></script>
+        <script src="/Content/Js/Plugins/bootstrap-datepicker.ar.min.js"></script>
+        <script src="/Content/Js/Plugins/bootstrap-datepicker.ar-tn.min.js"></script>
+        <script src="/Content/Js/Core.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=Your_API_KEy&callback=initMap"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=Your_API_KEy&callback=initMap2"></script>
+        <!---------------------- Scripts : End -------------------------->
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <!---------------------- Header : Begin ------------------------>
+            <nav class="main-header row no-gutters col-12 has-background">
+                <div class="main-header-container col-lg-10 col-12 ">
+                    <ul class="col header-tools">
+                        <li><a href="#">English</a></li>
+                        <li><p>مرحبا بكم فى تتبيلة</p></li>
+                    </ul>
+                    <div class="logo-container"><img alt="Tatbela" src="/Content/Images/ar-new-ws.png" class="Logo"/></div>
+                    <ul class="col d-xl-flex d-lg-flex d-none header-authenticate">
+                        <!-- <li><a data-toggle="modal" data-target="#registerModal">أنضم لعائلة تتبيلة</a></li>
+                        <li><a>انشاء حساب</a></li>
+                        <li><a href="/Login.html">تسجيل دخول</a></li> -->
+                        <li class="user-op-list">
+                            <a id="userdropdownMenuButton"  data-toggle="dropdown" data-target="UsermenuDrop" aria-haspopup="true" aria-expanded="false">
+                                <img src="/Content/Images/bg1.jpg">
+                                <p>محمد خليفة</p>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="userdropdownMenuButton" id="UsermenuDrop">
+                                <h6 class="dropdown-header">إدارة الحساب</h6>
+                                <a class="dropdown-item" href="/DriverProject/MyProfile.html">حسابى</a>
+                                <a class="dropdown-item" href="/Index.html">تسجيل خروج</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="white-icons col d-xl-none d-lg-none d-flex header-icons dropdown">
+                        <a class="icon-link fas fa-bars" id="dropdownMenuButton" data-toggle="dropdown" data-target="menuDrop" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menuDrop">
+                            <h6 class="dropdown-header">إدارة الحساب</h6>
+                            <a class="profile-item">
+                                <img src="/Content/Images/bg1.jpg">
+                                <p>محمد خليفة</p>
+                            </a>
+                            <a class="dropdown-item" href="/DriverProject/MyProfile.html">حسابى</a>
+                            <a class="dropdown-item" href="/Index.html">تسجيل خروج</a>
+                            <h6 class="dropdown-header">الصفحات</h6>
+                            <a class="dropdown-item" href="/Index-Driver.html">الرئيسية</a>
+                            <a class="dropdown-item" href="/MarketCart.html">سلة المشتريات</a>
+                            <a class="dropdown-item" href="/DriverProject/DriverOrders.html">الطلبات</a>
+                            <a class="dropdown-item" href="/DriverProject/DriverOffers.html">العروض</a>
+                            <a class="dropdown-item" href="#">مدونة تتبيلة</a>
+                            <a class="dropdown-item" href="/Market.html">سوق تتبيلة</a>
+                            <a class="dropdown-item" href="#">إسأل تتبيلة</a>
+                            <a class="dropdown-item" href="/ConditionsAndTerms.html">الشروط و الاحكام</a>
+                            <a class="dropdown-item" href="/About.html">اعرف عنا</a>
+                            <a class="dropdown-item" href="#">اتصل بنا</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <nav class="SubHeaderClass d-xl-flex d-lg-flex d-none sub-header row no-gutters col-lg-10 col-12 white-bg">
+                    <a class=" fi icon-link flaticon-home" href="/Index-Driver.html"></a>
+                    <ul class="main-menu">
+                        <li class="main-menu-item show-sm"><a class="fi flaticon-home" href="/Index-Driver.html">الرئيسية</a></li>
+                        <li class="main-menu-item show-sm"><a class="fi flaticon-supermarket-1" href="/MarketCart.html">سلة المشتريات</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-magnifier" href="/DriverProject/DriverOrders.html">الطلبات</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-cooker" href="/DriverProject/DriverOffers.html">العروض</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-writing" >مدونة تتبيلة</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-writing" href="/Market.html">سوق تتبيلة</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-lifeguard" >إسأل تتبيلة</a></li>
+                        <li class="main-menu-item"><a class="fas fa-list" href="/ConditionsAndTerms.html">الشروط و الاحكام</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-help-button-speech-bubble-with-question-mark" href="/About.html">اعرف عنا</a></li>
+                        <li class="main-menu-item"><a class="fi flaticon-old-typical-phone" >اتصل بنا</a></li>
+                    </ul>
+                    <a class=" fi icon-link after-menu flaticon-supermarket-1" href="/MarketCart.html"><span>0</span></a>
+                </nav>
+            </nav>
+            <!---------------------- Header : End ------------------------>
+            <div class="main-data-container row no-gutters">
+                <ul class="site-map row no-gutters col-10">
+                    <li><a href="/Index-Driver.html">الصفحة الرئيسية</a></li>
+                    <li class="current">حسابي</li>
+                </ul>
+                <div class="main-data-section-wrapper side-wrap row no-gutters col-xl-3 col-lg-4 col-11">
+                    <div class="col-12 main-data-section row no-gutters">
+                        <div class="sub-data-section col-12 row border-bottom-0">
+                            <div class="sub-data-section-header">
+                                <h3>حسابي</h3>
+                            </div>
+                            <div class="sub-data-section-body row col-12 no-gutters">
+                                <ul class="col-12 no-gutters row MyProfileUL nav-tabs nav">
+                                    <li class="col-12 row "><a id="General-Settings-tab" data-toggle="tab" class="col-12" href="#GeneralSettings" role="tab" aria-controls="General-Settings-tab" aria-selected="true"><span class="fi flaticon-user"></span>تفاصيل عامة</a></li>
+                                    <li class="col-12 row "><a id="MyReviews-tab" data-toggle="tab" class="col-12 " href="#MyReviews" role="tab" aria-controls="MyReviews-tab" aria-selected="true"><span class="fi flaticon-review"></span>تقييم خدمتي</a></li>
+                                    <li class="col-12 row "><a id="MyWallet-tab" data-toggle="tab" class="col-12 active " href="#MyWallet" role="tab" aria-controls="MyWallet-tab" aria-selected="true"><span class="fi flaticon-credit-card"></span>محفظتي</a></li>
+                                    <li class="col-12 row "><a id="Help-tab" data-toggle="tab" class="col-12 " href="#Help" role="Help-tab" aria-controls="Help-tab" aria-selected="true"><span class="fi flaticon-lifeguard"></span>مركز المساعدة</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-data-section-wrapper main-wrap row no-gutters col-xl-7 col-lg-6 col-12">
+                    <div class="col-12 col-lg-12 col-md-12 main-data-section row no-gutters">
+                        <div class="sub-data-section col-12 row no-gutters">
+                            <div class="tab-content col-12">
+                                <div id="MyWallet" class="tab-pane fade in active show wallet-tab">
+                                    <div class="col-12 row no-gutters p-0">
+                                        <div class="sub-data-section-header row no-gutters">
+                                            <div class="header-container col-12 row no-gutters">
+                                                <h3>محفظتي</h3>
+                                                <a class="warning fi flaticon-problem" id="walletIcon" data-toggle="modal" data-target="#MyWalletinfo"></a>
+                                            </div>
+                                        </div>
+                                        <div class="tab-body sub-data-section-body col-12 row no-gutters">
+                                            <div class="MyWallet col-12">
+                                                <div class="MyWallet-Header col row no-gutters">
+                                                    <p class="current col-12">رصيد المحفظة</p>
+                                                    <span class="total danger col-12">5000- <span class="currancy"> جنيه</span></span>
+                                                    <div class="MyWallet-Header-content col-12 row">
+                                                        <div class="totals col-6 row no-gutters">
+                                                            <span class="icon fi flaticon-money-bag-with-dollar-symbol success"></span>
+                                                            <div class="totals-details">
+                                                                <p class="totals-details-header">مجموع المحصل</p>
+                                                                <p class="totals-details-value success"><span>1000</span>جنيه</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Number col-6 row no-gutters">
+                                                            <span class="icon fi flaticon-car-2 warning"></span>
+                                                            <div class="Number-details">
+                                                                <p class="Number-details-header">عدد التوصيلات</p>
+                                                                <p class="Number-details-value warning"><span>100</span></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="MyWallet-Body">
+                                                    <div class="transactions-header col-12 row no-gutters">
+                                                        <h6>العمليات السابقة</h6>
+                                                    </div>
+                                                    <ul class="transactions-list col-12 row no-gutters">
+                                                        <li class="transactions-list-item col-12 row no-gutters success">
+                                                            <div class="transactions-data col-xl col-lg-12 row no-gutters ">
+                                                                <span class="fi flaticon-entry"></span>
+                                                                <div class="transactions-sub-data col">
+                                                                    <p class="title col-12 px-0"> سحب</p>
+                                                                    <p class="details col-12 px-0">تم السحب من حساب البنك الخاص رقم : 521SD4</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="transactions-side-data row no-gutters col-xl col-lg-12 ">
+                                                                <div class="date-time col-xl-12 col no-gutters">
+                                                                    <p><span class="far fa-calendar"></span> 25/02/2019</p>
+                                                                    <p><span class="fi flaticon-wall-clock"></span> 05:30 AM</p>
+                                                                </div>
+                                                                <p>50 <span>ريال</span></p>
+                                                            </div> 
+                                                        </li>
+                                                        <li class="transactions-list-item col-12 row no-gutters">
+                                                            <div class="transactions-data col-xl col-lg-12 row no-gutters ">
+                                                                <span class="fi flaticon-transfer"></span>
+                                                                <div class="transactions-sub-data col">
+                                                                    <p class="title col-12 px-0"> تحويل</p>
+                                                                    <p class="details col-12 px-0">تم التجويل من حساب البنك الخاص رقم : 55521 إلى الحساب رقم : 522143 </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="transactions-side-data row no-gutters col-xl col-lg-12">
+                                                                <div class="date-time col-xl-12 col no-gutters">
+                                                                    <p><span class="far fa-calendar"></span> 25/02/2019</p>
+                                                                    <p><span class="fi flaticon-wall-clock"></span> 05:30 AM</p>
+                                                                </div>
+                                                                <p>150 <span>ريال</span></p>
+                                                            </div> 
+                                                        </li>
+                                                    </ul> 
+                                                    <!-- <div class="MyWallet-Body-header col row">
+                                                        <h5>العمليات السابقة</h5>
+                                                    </div>
+                                                    <div class="Wallet-Record row ">
+                                                        <div class="mainData col-6 row">
+                                                            <span class="fi flaticon-entry success"></span>
+                                                            <div class="details">
+                                                                <p class="title">سحب</p>
+                                                                <P class="info">تم سحب مبلغ مالي من حساب البنك</P>
+                                                            </div>
+                                                        </div>
+                                                        <div class="OtherData col-6">
+                                                            <div class="DateAndTime row">
+                                                                <p><span class="fi flaticon-wall-clock"></span> 02:00 م</p>
+                                                                <p><span class="fi flaticon-calendar"></span> 22/11/2019</p>
+                                                            </div>
+                                                            <p class="cash"><span>53</span> جنيه</p>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="Wallet-Record row ">
+                                                        <div class="mainData col-6 row">
+                                                            <span class="fi flaticon-transfer warning"></span>
+                                                            <div class="details">
+                                                                <p class="title">تحويل</p>
+                                                                <P class="info">تم سحب مبلغ مالي من حساب البنك</P>
+                                                            </div>
+                                                        </div>
+                                                        <div class="OtherData col-6">
+                                                            <div class="DateAndTime row">
+                                                                <p><span class="fi flaticon-wall-clock"></span> 02:00 م</p>
+                                                                <p><span class="fi flaticon-calendar"></span> 22/11/2019</p>
+                                                            </div>
+                                                            <p class="cash"><span>53</span> جنيه</p>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="Wallet-Record row ">
+                                                        <div class="mainData col-6 row">
+                                                            <span class="fi flaticon-entry success"></span>
+                                                            <div class="details">
+                                                                <p class="title">سحب</p>
+                                                                <P class="info">تم سحب مبلغ مالي من حساب البنك</P>
+                                                            </div>
+                                                        </div>
+                                                        <div class="OtherData col-6">
+                                                            <div class="DateAndTime row">
+                                                                <p><span class="fi flaticon-wall-clock"></span> 02:00 م</p>
+                                                                <p><span class="fi flaticon-calendar"></span> 22/11/2019</p>
+                                                            </div>
+                                                            <p class="cash"><span>53</span> جنيه</p>
+                                                        </div>
+                                                        
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <footer class="side-page-footer Footer">
+                <div class="footer-container col-lg-11 col-12 row no-gutters">
+                    <div class="col-md-6 col-12 contact-div">
+                        <img class="logo" src="/Content/Images/ar-new.png" alt="Logo">
+                        <p class="fi flaticon-placeholder">مدينة الملك عبد العزيز للعلوم و التقنية - بادر الطائف</p>
+                        <p class="fi flaticon-telephone"><span class="telephone">00966 539395039</span></p>
+                        <p class="fi flaticon-email">career@tatbela.com</p>
+                    </div>
+                    <div class="col-md-6 col-12 company-div">
+                        <div class="side-align col-xl-11 col-12 company-div-container">
+                            <div class="subscribe-container row no-gutters">
+                                <h3 class="col-12">أحصل على أخر أخبارنا</h3>
+                                <div class="pl-0 pr-0 warning col-12 text-input-btn form-group fi flaticon-email">
+                                    <input type="text" name="subscribeNews" class=" form-control" id="subscribeNews" placeholder="إدخل البريد الإلكترونى الخاص بك">
+                                    <button class="submit-btn">إشترك</button>
+                                </div>
+                            </div>
+                            <div class="social-icons">
+                                <a class="fi flaticon-facebook-logo" href="https://www.facebook.com/tatbelaapp/"></a>
+                                <a class="fi flaticon-twitter-sign" href="https://mobile.twitter.com/TatbelaApp"></a>
+                                <a class="fi flaticon-instagram-logo" href="https://www.instagram.com/tatbelaapp/"></a>
+                                <a class="fi flaticon-social-google-plus-square-button" href="https://plus.google.com/105471210403958528362"></a>
+                                <a class="fi flaticon-youtube-logo" href="https://www.youtube.com/channel/UCagd7Pb01MZ0UcdA8vjTTJg"></a>
+                            </div>
+                            <div class="download-icons">
+                                <img class="download" src="/Content/Images/android.png" alt="Android">
+                                <img class="download" src="/Content/Images/ios.png" alt="Ios">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-footer col-12">
+                        <p> ملك مؤسسة المدى الأخير للتجارة</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!------------- Add Complain Modal ---------------->
+        <div class=" modal fade gmodal success" id="reviewsModal" tabindex="-1" role="dialog" aria-labelledby="reviewsModal" aria-hidden="true">
+            <div class="modal-md center-Modal modal-dialog modal-dialog-centered" role="document">
+                <form class="modal-content">
+                    <div class="special-header modal-header">
+                        <div class="modal-header-container col-12 row no-gutters ">
+                            <h3 class="fi flaticon-writing">تقديم شكوى</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12 row modal-body-container">
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="Respond">سبب الشكوى</label>
+                                <select class="form-control select-single" name="JournalType" id="JournalType">
+                                    <option> سبب الشكوى</option>
+                                    <option>سبب 1</option>
+                                    <option>سبب 2</option>
+                                    <option>سبب 3</option>
+                                    <option>سبب 4</option>
+                                </select>
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="help-Address">عنوان الشكوى</label>
+                                <input type="text" name="help-Address" class="form-control" id="help-Address" placeholder="عنوان الشكوى">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="help-Details">تفاصيل الشكوى</label>
+                                <input type="text" name="help-Details" class="form-control" id="help-Details" placeholder="تفاصيل الشكوى">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="OrderNumber">متعلقة بطلب</label>
+                                <select class="form-control select-single" name="OrderNumber" id="OrderNumber">
+                                    <option> الطلبات</option>
+                                    <option>طلب 1</option>
+                                    <option>طلب 2</option>
+                                    <option>طلب 3</option>
+                                    <option>طلب 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer-container col-12 row no-gutters ">
+                            <div class="footer-btns row no-gutters">
+                                <button class="gbtn-o success"><span calss="btn-text">تقديم</span></button>
+                                <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">إغلاق</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!------------- Add Address Modal ---------------->
+        <div class=" modal fade gmodal success" id="AddAddressModal" tabindex="-1" role="dialog" aria-labelledby="AddAddressModal" aria-hidden="true">
+            <div class="modal-lg modal-dialog center-Modal modal-dialog-centered" role="document">
+                    <form class="modal-content map-modal col-12 row no-gutters">
+                        <div class="data-side col-6 ">
+                            <div class="special-header modal-header">
+                                <div class="modal-header-container col-12 row no-gutters ">
+                                    <h3 class="fi flaticon-placeholder success">اضافة عنوان</h3>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-12 row modal-body-container">
+                                    <div class="col-9  text-input lightGray form-group">
+                                        <label for="AddressName">الاسم</label>
+                                        <input type="text" name="AddressName" class="form-control" id="AddressName" placeholder="الاسم">
+                                    </div>
+                                    <div class=" custom-control col custom-checkbox row no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="RememberMe" name="remember">
+                                        <label class="custom-control-label" for="RememberMe">عنوان رئيسي</label>
+                                    </div>
+                                    <div class="col-12  text-input lightGray form-group">
+                                        <label for="AddressLocation">الموقع</label>
+                                        <input type="text" name="AddressLocation" class="form-control" id="AddressLocation" placeholder="الموقع">
+                                    </div>
+                                    <div class="col-12  text-input lightGray form-group">
+                                        <label for="AddressDetails">العنوان</label>
+                                        <input type="text" name="AddressDetails" class="form-control" id="AddressDetails" placeholder="العنوان">
+                                    </div>
+                                    <div class="col-6  text-input lightGray form-group">
+                                        <label for="Floor">الدور</label>
+                                        <input type="text" name="Floor" class="form-control" id="Floor" placeholder="الدور">
+                                    </div>
+                                    <div class="col-6  text-input lightGray form-group">
+                                        <label for="Appartment">الشقة</label>
+                                        <input type="text" name="Appartment" class="form-control" id="Appartment" placeholder="الشقة">
+                                    </div>
+                                    <div class="col-12  text-input lightGray form-group">
+                                        <label for="OtherDetails">تفاصيل اخرى</label>
+                                        <input type="text" name="OtherDetails" class="form-control" id="OtherDetails" placeholder="تفاصيل اخرى">
+                                    </div>
+                                    <div class="col-12  text-input lightGray form-group">
+                                        <label for="DeliveryInstructions">تعليمات التوصيل</label>
+                                        <input type="text" name="DeliveryInstructions" class="form-control" id="DeliveryInstructions" placeholder="تعليمات التوصيل">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="modal-footer-container col-12 row no-gutters ">
+                                    <div class="footer-btns row no-gutters">
+                                        <button class="gbtn-o success"><span calss="btn-text">اضافة</span></button>
+                                        <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">إغلاق</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map-side col-6 row no-gutters">
+                                <div class="col-12 row no-gutters map-section" id="mapadd"></div>
+                        </div>
+                    </form>
+                </div>
+        </div>
+        <!------------- Edit Address Modal ---------------->
+        <div class=" modal fade gmodal warning" id="EditAddressModal" tabindex="-1" role="dialog" aria-labelledby="EditAddressModal" aria-hidden="true">
+            <div class="modal-lg modal-dialog modal-dialog-centered center-Modal" role="document">
+                <form class="modal-content map-modal col-12 row no-gutters">
+                    <div class="data-side col-6">
+                        <div class="special-header modal-header">
+                            <div class="modal-header-container col-12 row no-gutters ">
+                                <h3 class="fi flaticon-placeholder success">تعديل بيانات عنوان</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="col-12 row modal-body-container">
+                                <div class="col-9  text-input lightGray form-group">
+                                    <label for="AddressName">الاسم</label>
+                                    <input type="text" name="AddressName" class="form-control" id="AddressName" placeholder="الاسم">
+                                </div>
+                                <div class=" custom-control col custom-checkbox row no-gutters">
+                                    <input type="checkbox" class="custom-control-input" id="MainAddEdit" name="remember">
+                                    <label class="custom-control-label" for="MainAddEdit">عنوان رئيسي</label>
+                                </div>
+                                <div class="col-12  text-input lightGray form-group">
+                                    <label for="AddressLocation">الموقع</label>
+                                    <input type="text" name="AddressLocation" class="form-control" id="AddressLocation" placeholder="الموقع">
+                                </div>
+                                <div class="col-12  text-input lightGray form-group">
+                                    <label for="AddressDetails">العنوان</label>
+                                    <input type="text" name="AddressDetails" class="form-control" id="AddressDetails" placeholder="العنوان">
+                                </div>
+                                <div class="col-6  text-input lightGray form-group">
+                                    <label for="Floor">الدور</label>
+                                    <input type="text" name="Floor" class="form-control" id="Floor" placeholder="الدور">
+                                </div>
+                                <div class="col-6  text-input lightGray form-group">
+                                    <label for="Appartment">الشقة</label>
+                                    <input type="text" name="Appartment" class="form-control" id="Appartment" placeholder="الشقة">
+                                </div>
+                                <div class="col-12  text-input lightGray form-group">
+                                    <label for="OtherDetails">تفاصيل اخرى</label>
+                                    <input type="text" name="OtherDetails" class="form-control" id="OtherDetails" placeholder="تفاصيل اخرى">
+                                </div>
+                                <div class="col-12  text-input lightGray form-group">
+                                    <label for="DeliveryInstructions">تعليمات التوصيل</label>
+                                    <input type="text" name="DeliveryInstructions" class="form-control" id="DeliveryInstructions" placeholder="تعليمات التوصيل">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="modal-footer-container col-12 row no-gutters ">
+                                <div class="footer-btns row no-gutters">
+                                    <button class="gbtn-o warning"><span calss="btn-text">تعديل</span></button>
+                                    <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">إغلاق</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-side col-6 row no-gutters">
+                        <div class="col-12 row no-gutters map-section" id="mapedit"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!------------- Change Password Modal ---------------->
+        <div class=" modal fade gmodal warning" id="ChangePasswordModal" tabindex="-1" role="dialog" aria-labelledby="ChangePasswordModal" aria-hidden="true">
+            <div class="modal-md center-Modal modal-dialog modal-dialog-centered" role="document">
+                <form class="modal-content">
+                    <div class="special-header modal-header">
+                        <div class="modal-header-container col-12 row no-gutters ">
+                            <h3 class="warning fi flaticon-password ">تغيير كلمة المرور</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12 row modal-body-container">
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="oldPassword">كلمة المرور الحالية</label>
+                                <input type="text" name="oldPassword" class="form-control" id="oldPassword" placeholder="كلمة المرور الحالية">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="NewPassword">كلمة المرور الجديدة</label>
+                                <input type="text" name="NewPassword" class="form-control" id="NewPassword" placeholder="كلمة المرور الجديدة">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="ConfirmNewPassword"> تاكيد كلمة المرور الجديدة</label>
+                                <input type="text" name="ConfirmNewPassword" class="form-control" id="ConfirmNewPassword" placeholder="تاكيد كلمة المرور الجديدة">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer-container col-12 row no-gutters ">
+                            <div class="footer-btns row no-gutters">
+                                <button class="gbtn-o warning"><span calss="btn-text" data-dismiss="modal">تعديل</span></button>
+                                <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">إغلاق</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class=" modal fade gmodal" id="DrivingLicence" tabindex="-1" role="dialog" aria-labelledby="DrivingLicence" aria-hidden="true">
+            <div class="modal-md center-Modal modal-dialog modal-dialog-centered" role="document">
+                <form class="modal-content">
+                    <div class="special-header modal-header">
+                        <div class="modal-header-container col-12 row no-gutters ">
+                            <h3 class="warning fi flaticon-id-card-1 ">رخصة القيادة</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12 row modal-body-container">
+                            <img src="../Content/Images/HeaderBg.jpg" alt="Driving Licence" class=" maxWidHi100">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer-container col-12 row no-gutters ">
+                            <div class="footer-btns row no-gutters">
+                                <button class="gbtn-o warning"><span calss="btn-text" data-dismiss="modal">تعديل</span></button>
+                                <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">رجوع</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class=" modal fade gmodal" id="NationalId" tabindex="-1" role="dialog" aria-labelledby="NationalId" aria-hidden="true">
+            <div class="modal-md center-Modal modal-dialog modal-dialog-centered" role="document">
+                <form class="modal-content">
+                    <div class="special-header modal-header">
+                        <div class="modal-header-container col-12 row no-gutters ">
+                            <h3 class="warning fi flaticon-id-card ">رقم الهوية</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12 row modal-body-container">
+                            <img src="../Content/Images/HeaderBg.jpg" alt="NationalId" class=" maxWidHi100">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer-container col-12 row no-gutters ">
+                            <div class="footer-btns row no-gutters">
+                                <button class="gbtn-o warning"><span calss="btn-text" data-dismiss="modal">تعديل</span></button>
+                                <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">رجوع</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class=" modal fade gmodal" id="RearPlate" tabindex="-1" role="dialog" aria-labelledby="RearPlate" aria-hidden="true">
+            <div class="modal-md center-Modal modal-dialog modal-dialog-centered" role="document">
+                <form class="modal-content">
+                    <div class="special-header modal-header">
+                        <div class="modal-header-container col-12 row no-gutters ">
+                            <h3 class="warning fi flaticon-license-plate ">اللوحة الخلفية</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12 row modal-body-container">
+                            <img src="../Content/Images/HeaderBg.jpg" alt="RearPlate" class=" maxWidHi100">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer-container col-12 row no-gutters ">
+                            <div class="footer-btns row no-gutters">
+                                <button class="gbtn-o warning"><span calss="btn-text" data-dismiss="modal">تعديل</span></button>
+                                <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">رجوع</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class=" modal fade gmodal" id="FrontPlate" tabindex="-1" role="dialog" aria-labelledby="FrontPlate" aria-hidden="true">
+            <div class="modal-md center-Modal modal-dialog modal-dialog-centered" role="document">
+                <form class="modal-content">
+                    <div class="special-header modal-header">
+                        <div class="modal-header-container col-12 row no-gutters ">
+                            <h3 class="warning fi flaticon-car-2 ">اللوحة الامامية</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12 row modal-body-container">
+                            <img src="../Content/Images/HeaderBg.jpg" alt="FrontPlate" class=" maxWidHi100">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer-container col-12 row no-gutters ">
+                            <div class="footer-btns row no-gutters">
+                                <button class="gbtn-o warning"><span calss="btn-text" data-dismiss="modal">تعديل</span></button>
+                                <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">رجوع</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal fade" id="MyWalletinfo" tabindex="-1" role="dialog" aria-labelledby="MyWalletinfo" aria-hidden="true">
+                <div class="modal-md modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content msg-modal">
+                        <div class="special-header modal-header">
+                            <button type="button" class="close fas fa-times" data-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal-icon"><span class="fi flaticon-problem"></span></div>
+                            <p>سيتم تحويل الأموال الى حسابك أسبوعيا 
+                                    فور تخطيك الحد الأدنى للتحويل </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+    <script>
+        $.fn.datepicker.defaults.format = "mm/yy";
+        $('.datepicker').datepicker({
+            startDate: '-3d',
+            language: 'ar'
+        });
+    </script>
+</html>

@@ -1,0 +1,72 @@
+<div class="main-div row no-gutters home-container">
+    <!---------------------- Header : Begin ------------------------>
+    <nav class="main-header row no-gutters col-12">
+        <div class="main-header-container col-lg-10 col-12">
+            <ul class="col header-tools">
+                <li><a href="#">English</a></li>
+                <li><p>مرحبا بكم فى تتبيلة</p></li>
+            </ul>
+            <div class="logo-container"><img alt="Tatbela" src="/Content/Images/ar-new.png" class="Logo" /></div>
+            <ul class="col d-xl-flex d-lg-flex d-none header-authenticate">
+                <li class="joinTatbelaListItem">
+                    <a id="joinTatbelaBtn" data-toggle="dropdown" data-target="joinTatbelaDrop" aria-haspopup="true" aria-expanded="false">أنضم لعائلة تتبيلة</a>
+                    <div class="dropdown-menu" aria-labelledby="joinTatbelaBtn" id="joinTatbelaDrop">
+                        <a class="dropdown-item" href="/BecomeAChef-BankAccount-GeneralData.html">تسجيل طباخ</a>
+                        <a class="dropdown-item" href="/DriverProject/DriverRegisteration.html">تسجيل سائق</a>
+                    </div>
+                </li>
+                <!-- <li><a href="/ConditionsAndTerms.html">الشروط و الاحكام</a></li> -->
+                <li><a href="/CreateAccount.html">انشاء حساب</a></li>
+                <li><a href="/Login.html">تسجيل دخول</a></li>
+            </ul>
+
+            <div class="col d-xl-none d-lg-none d-flex header-icons dropdown">
+                <!-- <li> <a href="/ConditionsAndTerms.html">الشروط و الاحكام</a> </li>
+        <a class="fi icon-link flaticon-help-button-speech-bubble-with-question-mark" href="/About.html"></a> -->
+                <a class="icon-link fas fa-bars" id="dropdownMenuButton" data-toggle="dropdown" data-target="menuDrop" aria-haspopup="true" aria-expanded="false"></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menuDrop">
+                    <a class="dropdown-item" href="/Index.html">الرئيسية</a>
+                    <a class="dropdown-item" href="/Clientproject/Cart.html">سلة المشتريات</a>
+                    <a class="dropdown-item" href="/ClientProject/Finder.html">إبحث عن طباخ</a>
+                    <a class="dropdown-item" href="/Clientproject/OurChefs.html">طباخينا</a>
+                    <a class="dropdown-item" href="#">مدونة تتبيلة</a>
+                    <a class="dropdown-item" href="/Market.html">سوق تتبيلة</a>
+                    <a class="dropdown-item" href="#">إسأل تتبيلة</a>
+                    <a class="dropdown-item" href="/ConditionsAndTerms.html">الشروط و الاحكام</a>
+                    <a class="dropdown-item" href="/About.html">اعرف عنا</a>
+                    <a class="dropdown-item" href="#">اتصل بنا</a>
+                    <h6 class="dropdown-header">إدارة الحساب</h6>
+                    <a class="dropdown-item" href="/BecomeAChef-BankAccount-GeneralData.html">أنضم لعائلة تتبيلة</a>
+                    <a class="dropdown-item" href="/CreateAccount.html">إنشاء حساب</a>
+                    <a class="dropdown-item" href="/Login.html">تسجيل دخول</a>
+                </div>
+            </div>
+        </div>
+        <nav class="SubHeaderClass d-xl-flex d-lg-flex d-none sub-header row no-gutters col-lg-10 col-12" }>
+            <a class=" fi icon-link flaticon-home" href="/Index.html"></a>
+            <ul class="main-menu">
+                <li class="main-menu-item show-sm"><a class="fi flaticon-home" href="/Index.html">الرئيسية</a></li>
+                <li class="main-menu-item show-sm"><a class="fi flaticon-supermarket-1" href="/Clientproject/Cart.html">سلة المشتريات</a></li>
+                <li class="main-menu-item"><a class="fi flaticon-magnifier" href="/ClientProject/Finder.html">إبحث عن طباخ</a></li>
+                <li class="main-menu-item"><a class="fi flaticon-cooker" href="/Clientproject/OurChefs.html">طباخينا</a></li>
+                <li class="main-menu-item"><a class="fi flaticon-writing">مدونة تتبيلة</a></li>
+                <li class="main-menu-item"><a class="fi flaticon-writing" href="/Market.html">سوق تتبيلة</a></li>
+                <li class="main-menu-item"><a class="fi flaticon-lifeguard">إسأل تتبيلة</a></li>
+                <li class="main-menu-item"><a class="fas fa-list" href="/ConditionsAndTerms.html">الشروط و الاحكام</a></li>
+                <li class="main-menu-item"><a class="fi flaticon-help-button-speech-bubble-with-question-mark" href="/About.html">اعرف عنا</a></li>
+                <li class="main-menu-item"><a class="fi flaticon-old-typical-phone">اتصل بنا</a></li>
+            </ul>
+            <a class=" fi icon-link after-menu flaticon-supermarket-1" href="/Clientproject/Cart.html"><span>0</span></a>
+        </nav>
+    </nav>
+    <!---------------------- Header : End ------------------------>
+    <div class="data-container row no-gutters">
+        <h1 class="title col-12">ابدأ مشروع أَكْل  بَيْتيّ <br /> معنا الان</h1>
+        <form class="col-md-6 col-sm-8 col-12 finder-form">
+            <div class="pl-0 pr-0 text-input-btn form-group fi flaticon-magnifier">
+                <input type="text" name="ChefLocation" class="form-control" id="ChefLocation" placeholder="إبحث عن طباخين قريبين منك" />
+                <button class="submit-btn" type="button" onclick="window.location.replace('/ClientProject/Finder.html')">إبحث</button>
+            </div>
+        </form>
+    </div>
+</div>

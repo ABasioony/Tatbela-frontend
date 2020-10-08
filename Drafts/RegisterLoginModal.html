@@ -1,0 +1,87 @@
+<div class=" modal fade gmodal success" id="RegisterLoginModal" tabindex="-1" role="dialog" aria-labelledby="RegisterLoginModal" aria-hidden="true">
+        <div class="modal-lg modal-dialog center-Modal modal-dialog-centered" role="document">
+            <div class="modal-content login-register-modal col-12 row no-gutters">
+                <div class="login-register-modal-container col-12 row no-gutters">
+                    <div class="form-side col-xl-6 col-lg-6  col-md-12 tab-content" id="myTabContent">
+                        <form class="tab-pane fade show active" id="Login" role="tabpanel" aria-labelledby="login-tab" >
+                            <div class="special-header modal-header">
+                                <div class="modal-header-container col-12 row no-gutters ">
+                                    <h3>تسجيل دخول</h3>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-12 row modal-body-container">
+                                    <button type="button" class="gbtn login-btn facebook fab fa-facebook-f">تسجيل دخول بحساب Facebook</button>
+                                    <button type="button" class="gbtn login-btn google-plus fab fa-google-plus-g">تسجيل دخول بحساب Google</button>
+                                    <p class="col-12 devider-p">أو</p>
+                                    <div class="col-10 text-input lightGray form-group">
+                                        <label for="Email">البريد الإلكترونى</label>
+                                        <input type="email" name="Email" class="form-control" id="Email" placeholder="أدخل البريد الإلكترونى الخاص بك">
+                                    </div>
+                                    <div class="col-10  text-input lightGray form-group">
+                                        <label for="password">كلمة السر</label>
+                                        <input type="password" name="password" class="form-control" id="password" placeholder="أدخل كلمة السر">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="modal-footer-container col-12 row no-gutters ">
+                                    <div class="footer-btns row no-gutters">
+                                        <button class="gbtn success"><span calss="btn-text">تسجيل دخول</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <form class="tab-pane fade" id="Register" role="tabpanel" aria-labelledby="register-tab">
+                            <div class="special-header modal-header">
+                                <div class="modal-header-container col-12 row no-gutters ">
+                                    <h3>إنشاء حساب</h3>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-12 row modal-body-container">
+                                    <div class="col-10 text-input lightGray form-group">
+                                        <label for="Name">الإسم الكامل</label>
+                                        <input type="text" name="Name" class="form-control" id="Name" placeholder="أدخل الإسم الكامل">
+                                    </div>
+                                    <div class="col-10 text-input lightGray form-group">
+                                        <label for="Email">البريد الإلكترونى</label>
+                                        <input type="email" name="Email" class="form-control" id="Email" placeholder="أدخل البريد الإلكترونى الخاص بك">
+                                    </div>
+                                    <div class="col-10 text-input lightGray form-group">
+                                        <label for="Name">رقم الجوال</label>
+                                        <input type="text" name="Name" class="form-control" id="Name" placeholder="أدخل رقم الجوال الخاص بك">
+                                    </div>
+                                    <div class="col-10  text-input lightGray form-group">
+                                        <label for="password">كلمة السر</label>
+                                        <input type="password" name="password" class="form-control" id="password" placeholder="أدخل كلمة السر">
+                                    </div>
+                                    <div class="row no-gutters col-10 login-tools">
+                                        <div class=" custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="AcceptTerms" name="AcceptTerms">
+                                            <label class="custom-control-label" for="AcceptTerms">قبول الشروط و الاحكام</label>
+                                            <a class="fi custom-control-href flaticon-problem" data-toggle="modal" data-target="#ConditionsModal" ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="modal-footer-container col-12 row no-gutters ">
+                                    <div class="footer-btns row no-gutters">
+                                        <button class="gbtn success"><span calss="btn-text">إنشاء حساب</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="logo-div col-xl-6 col-lg-6 col-md-12 row no-gutters nav nav-tabs">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <img src="/Content/Images/ar-new-ws.png" alt="Tatbela">
+                        <p>يجب عليك التسجيل فى الموقع لكى تستفيد بخدمات تتبيلة</p>
+                        <button type="button" class="action-btn gbtn success" id="login-tab" data-toggle="tab" href="#Login" role="tab" aria-controls="Login" aria-selected="true">تسجيل دخول</button>
+                        <button type="button" class="action-btn gbtn dark" id="register-tab" data-toggle="tab" href="#Register" role="tab" aria-controls="Register" aria-selected="true">إنشاء حساب</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
