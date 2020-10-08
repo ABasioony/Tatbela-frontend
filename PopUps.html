@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content=" تتبيلة هو موقع الكترونى يتيح لك طلب اكل بيت صحى و نظيف اونلابن بكل سهولة فى كل انحاء المملكة العربية السعودية كما يتيح مشروع منزلى ناجح لربات المنزل و الطباخين">
+    <meta name="keywords" content="اكل بيت, اكل بيتى , مشروع اكل بيتى , مشروع منزلى ناجح , موقع تتبيلة , تطبيق تتبيلة , اطلب اكل بيتى اونلاين , اكل بيتى فى السعودية ">
+    <link rel="shortcut icon" href="/Content/Images/favicon.ico">
+    <title>اكل بيت | اطلب اكل بيتى اونلاين | مشروعات منزلية - تتبيلة</title>
+
+    <!---------------------- Styles : Begin ------------------------->
+    <link rel="stylesheet" href="/Content/Css/styles.css">
+    <!---------------------- Styles : End --------------------------->
+    <!---------------------- Scripts : Begin ------------------------>
+    <script src="/Content/Js/Plugins/jquery-3.2.1.min.js"></script>
+    <script src="/Content/Js/Plugins/bootstrap.bundle.min.js"></script>
+    <script src="/Content/Js/Plugins/loadingoverlay.min.js"></script>
+    <script src="/Content/Js/Core.js"></script>
+    <!---------------------- Scripts : End -------------------------->
+</head>
+    <body>
+        <button class=" gbtn-o" onclick="LoadingShow('body')">Show Loading</button>
+        <button class=" gbtn-o" onclick="ShowMsgmodal(['success','fi flaticon-check-mark','تمت العملية بنجاح',{text:'رجوع للصفحة الرئيسية',function:null}])">Show modal</button>
+        <button class=" gbtn-o danger" onclick="ShowMsgmodal(['danger','fi flaticon-delete-button','تم أنت متأكد من إزالة هذه البيانات ؟',{text:'نعم',function:''},{text:'لا'}])">Show danger modal</button>
+        <button class=" gbtn-o warning" onclick="ShowMsgmodal(['warning','fi flaticon-problem','هذه الخاصية غير متاحة الاّن',null,{text:'رجوع'}])">Show warning modal</button>
+        <button class=" gbtn-o dark" onclick="ShowMsgmodal(['dark','fi flaticon-email','برجاء مراجعة البريد الإلكترونى الخاص بك'])">Show default modal</button>
+
+        <div class="modal fade" id="MsgModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-md modal-dialog modal-dialog-centered" role="document">
+                <form class="modal-content msg-modal">
+                    <div class="special-header modal-header">
+                        <button type="button" class="close fas fa-times" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-icon"><span class="far fa-trash-alt"></span></div>
+                        <p class="col-lg-10 col-12 message"> </p>
+                    </div>
+                    <div class="modal-footer mt-0 pt-0">
+                        <a class="gbtn-o success approve-btn">إستمرار</a>
+                        <a class="gbtn-o dark cancle-btn">رجوع</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

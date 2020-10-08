@@ -1,0 +1,865 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+        <meta name="description" content=" تتبيلة هو موقع الكترونى يتيح لك طلب اكل بيت صحى و نظيف اونلابن بكل سهولة فى كل انحاء المملكة العربية السعودية كما يتيح مشروع منزلى ناجح لربات المنزل و الطباخين"  >
+        <meta name="keywords" content="اكل بيت, اكل بيتى , مشروع اكل بيتى , مشروع منزلى ناجح , موقع تتبيلة , تطبيق تتبيلة , اطلب اكل بيتى اونلاين , اكل بيتى فى السعودية ">  
+        <link rel="shortcut icon" href="/Content/Images/favicon.ico">
+        <title>اكل بيت | اطلب اكل بيتى اونلاين | مشروعات منزلية - تتبيلة</title>
+
+        <!---------------------- Styles : Begin ------------------------->
+        <link rel="stylesheet" href="/Content/Css/styles.css">
+        <link rel="stylesheet" href="/Content/Css/ion.rangeSlider.min.css">
+        <!-- <link rel="stylesheet" href="/Content/Css/noty.css">  -->
+        <!---------------------- Styles : End --------------------------->
+
+        <!---------------------- Scripts : Begin ------------------------>
+        <script src="/Content/Js/Plugins/jquery-3.2.1.min.js"></script>
+        <script src="/Content/Js/Plugins/jquery-ui.min.js"></script>
+        <script src="/Content/Js/Plugins/bootstrap.bundle.min.js"></script>
+        <!-- <script src="/Content/Js/Plugins/bootstrap.min.js"></script> -->
+        <script src="/Content/Js/Plugins/popper.min.js"></script>
+        <script src="/Content/Js/Plugins/owl.carousel.min.js"></script>
+        <script src="/Content/Js/Plugins/ion.rangeSlider.min.js"></script>
+        <script src="/Content/Js/Plugins/clamp.min.js"></script>
+        <script src="/Content/Js/Plugins/loadingoverlay.min.js"></script>
+        <script src="/Content/Js/Plugins/noty.min.js"></script>
+        <script src="/Content/Js/Core.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=Your_API_KEy&callback=initMap"></script>
+        <!---------------------- Scripts : End -------------------------->
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <!---------------------- Header : Begin ------------------------>
+           
+
+            <nav class="main-header-new row no-gutters col-12 has-background">
+                    <div class="main-header-new-container  col-12">
+                        <a class="logo-container" href="/">
+                            <img alt="Tatbela" src="/Content/Images/ar-new-ws.png" class="Logo" />
+                        </a>
+                        <ul class="col d-xl-flex d-lg-flex  side-op">
+                            <li class="m-0 lang-item"><a class="fi icon-link flaticon-language px-3"></a></li>
+                            <li class="m-0 cart-item"><a class="fi icon-link flaticon-shopping-cart-1 px-3" href="/ClientProject/Cart.html" id="carthrf"><span id="countspn">0</span></a></li>
+                            <li class="drop-grid mx-2">
+                                <a class="icon-link fi flaticon-user" id="dropdownMenuButton" data-toggle="dropdown" data-target="menuDrop" aria-haspopup="true" aria-expanded="false"></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menuDrop">
+                                    <div class="menu-header">
+                                        <h6 class="dropdown-header col-12">إدارة الحساب</h6>  
+                                    </div>
+                                    <div class="menu-container">
+                                        <a class="dropdown-item col-4 fi flaticon-profile success" href="/CreateAccount.html">إنضم كعميل</a>
+                                        <a class="dropdown-item col-4 fi flaticon-cooker warning" href="/BecomeAChef-BankAccount-GeneralData.html">إنضم كمقدم خدمة</a>
+                                        <a class="dropdown-item col-4 fi flaticon-scooter dark-orange" href="/DriverProject/DriverRegisteration.html">إنضم كموصل خدمة</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a class="gbtn success" href="/Login.html">تسجيل دخول</a></li>
+                        </ul>
+                    </div>
+                    <nav class="SubHeaderClass d-xl-flex d-lg-flex d-none sub-header row no-gutters col-lg-10 col-12 white-bg">
+                        <a class="fi icon-link flaticon-home" href="/"></a>
+                        <ul class="main-menu">
+                            <li class="main-menu-item show-sm"><a class="fi flaticon-home" href="/Index.html">الرئيسية</a></li>
+                
+                            <li class="main-menu-item show-sm"><a class="fi flaticon-supermarket-1" href="/ClientProject/Cart.html" id="carthrf">سلة المشتريات</a></li>
+                                    <!------------------------------------------------------------------Chef------>
+                                    <!-- <li class='main-menu-item'><a class='fi flaticon-magnifier' href='/ChefProject/MealsMenu.html'>قائمة الوجبات</a></li>
+                                    <li class='main-menu-item'><a class='fi flaticon-cooker' href='/ChefProject/MyProfile.html'>الطلبات</a></li> -->
+                                    <!------------------------------------------------------------------Driver------>
+                                    <!-- <li class='main-menu-item'><a class='fi flaticon-magnifier' href='/DriverProject/DriverOrders.html'>الطلبات</a> </li>
+                                    <li class='main-menu-item'><a class='fi flaticon-cooker' href='/DriverProject/DriverOffers.html'>العروض</a></li> -->
+                                    <!------------------------------------------------------------------Client------>
+                                   <!--  <li class='main-menu-item'><a class='fi flaticon-magnifier' href='/ClientProject/Finder.html'>إبحث عن طباخ</a> </li>
+                                    <li class='main-menu-item'><a class='fi flaticon-cooker' href='/ClientProject/OurChefs.html'>طباخينا</a></li> -->
+                              
+                            <li class='main-menu-item'><a class='fi flaticon-magnifier' href='/ClientProject/Finder.html'>إبحث عن طباخ</a> </li>
+                            <li class='main-menu-item'><a class='fi flaticon-cooker' href='/ClientProject/OurChefs.html'>طباخينا</a></li>
+                            <li class="main-menu-item"><a class="fi flaticon-writing" href="/blog/Blog.html">مدونة تتبيلة</a></li>
+                            <li class="main-menu-item"><a class="fi flaticon-writing" href="/Market.html">سوق تتبيلة</a></li>
+                            <li class="main-menu-item"><a class="fi flaticon-lifeguard" href="/AskTatbela.html">إسأل تتبيلة</a></li>
+                            <li class="main-menu-item"><a class="fas fa-list" href="/ConditionsAndTerms.html">الشروط و الأحكام</a></li>
+                            <li class="main-menu-item"><a class="fi flaticon-help-button-speech-bubble-with-question-mark" href="/About.html">إعرف عنا</a></li>
+                            <li class="main-menu-item"><a class="fi flaticon-old-typical-phone" href="/ContactUs.html">إتصل بنا</a></li>
+                        </ul>
+                        <a class="fi icon-link after-menu flaticon-shopping-cart-1" href="/ClientProject/Cart.html" id="carthrf"><span id="countspn">0</span></a>
+                    </nav>
+                </nav>
+            <!---------------------- Header : End ------------------------>
+            <div class="main-data-container row no-gutters">
+                <ul class="site-map row no-gutters col-10">
+                    <li><a href="/Index.html">الصفحة الرئيسية</a></li>
+                    <li class="current">إبحث عن طباخ</li>
+                </ul>
+                <div class="main-data-section-wrapper side-wrap row no-gutters col-xl-3 col-lg-4 col-11 filter-wrapper">
+                    <div class="col-12 main-data-section row no-gutters">
+                        <div class="sub-data-section col-12 row no-gutters rating-section">
+                            <a class="sub-data-section-header">
+                                <h3>تقييم الوجبات</h3>
+                                <span class="fas fa-minus side-wrap-section-toggle-btn"></span>
+                            </a>
+                            <div class="sub-data-section-body row col-12 no-gutters collpase show">
+                                <ul class="col-12 no-gutters row">
+                                    <li class="custom-control custom-checkbox col-12 row no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="oneStar">
+                                        <label class="custom-control-label" for="oneStar"><span class="fas fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="twoStars">
+                                        <label class="custom-control-label" for="twoStars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="threeStars">
+                                        <label class="custom-control-label" for="threeStars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="fourStars">
+                                        <label class="custom-control-label" for="fourStars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="fiveStars">
+                                        <label class="custom-control-label" for="fiveStars"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sub-data-section col-12 row no-gutters pricing-section">
+                            <a class="sub-data-section-header">
+                                <h3>الأسعار</h3>
+                                <span class="fas fa-minus side-wrap-section-toggle-btn"></span>
+                            </a>
+                            <div class="sub-data-section-body row col-12 no-gutters collapse show">
+                                <div class="side-fliter-price-section">
+                                    <p>العملة المختارة هى الريال السعودى</p>
+                                    <div class="col-12 form-group">
+                                        <input type="range" name="FilterPrice" id="pricing-div">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sub-data-section col-12 row no-gutters categories-section">
+                            <a class="sub-data-section-header">
+                                <h3>تصنيفات الوجبات</h3>
+                                <span class="fas fa-minus side-wrap-section-toggle-btn"></span>
+                            </a>
+                            <div class="sub-data-section-body row col-12 no-gutters collapse show">
+                                <ul class="col-12 no-gutters row">
+                                    <li class="side-search-list-input col-12 row form-group no-gutters">
+                                        <input type="text" class="form-control" placeholder="بحث فى التصنيفات">
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row warning no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="MainDish">
+                                        <label class="custom-control-label" for="MainDish"><p>الأطباق الرئيسية</p><span class="fi flaticon-plate"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row success no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="SideDish">
+                                        <label class="custom-control-label" for="SideDish"><p>الأطباق الجانبية</p><span class="fi flaticon-lunch"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row dark-warning no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="Chicken">
+                                        <label class="custom-control-label" for="Chicken"><p>دجاج</p><span class="fi flaticon-chicken"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row warning no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="Meet">
+                                        <label class="custom-control-label" for="Meet"><p>لحوم</p><span class="fi flaticon-steak"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row success no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="SeaFood">
+                                        <label class="custom-control-label" for="SeaFood"><p>مأكولات بحرية</p><span class="fi flaticon-fish"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row dark-warning no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="Soup">
+                                        <label class="custom-control-label" for="Soup"><p>شوربة</p><span class="fi flaticon-soup"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row warning no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="LowCal">
+                                        <label class="custom-control-label" for="LowCal"><p>قليلة السعرات</p><span class="fi flaticon-diet"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row success no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="Pasta">
+                                        <label class="custom-control-label" for="Pasta"><p>مكرونات</p><span class="fi flaticon-pasta"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row dark-warning no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="pizza">
+                                        <label class="custom-control-label" for="pizza"><p>بيتزا</p><span class="fi flaticon-pizza"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row warning no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="burger">
+                                        <label class="custom-control-label" for="burger"><p>برجر</p><span class="fi flaticon-burger"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row success no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="Sale">
+                                        <label class="custom-control-label" for="Sale"><p>تخفيضات</p><span class="fi flaticon-discount"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row dark-warning no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="dessert">
+                                        <label class="custom-control-label" for="dessert"><p>حلويات</p><span class="fi flaticon-dessert"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row warning no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="cake">
+                                        <label class="custom-control-label" for="cake"><p>حلويات</p><span class="fi flaticon-cake"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row success no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="easternSweets">
+                                        <label class="custom-control-label" for="easternSweets"><p> حلويات شرقية</p><span class="fi flaticon-croissant"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row dark-warning no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="pupularMeals">
+                                        <label class="custom-control-label" for="pupularMeals"><p> أكلات شعبية</p><span class="fi flaticon-food-and-restaurant"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row warning no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="Spices">
+                                        <label class="custom-control-label" for="Spices"><p>بهارات</p><span class="fi flaticon-seasoning"></span></label>
+                                    </li>
+                                    <li class="custom-control custom-checkbox col-12 row success no-gutters">
+                                        <input type="checkbox" class="custom-control-input" id="pickles">
+                                        <label class="custom-control-label" for="pickles"><p>مخللات</p><span class="fi flaticon-pickle"></span></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-data-section-wrapper main-wrap row no-gutters col-xl-7 col-lg-6 col-11">
+                    <div class="col-12 main-data-section row no-gutters no-back">
+                        <div class="sub-data-section col-12 row no-gutters map-section" id="map">
+                        </div>
+                        <div  class="sub-data-section col-12 row no-gutters chef-menu has-footer">
+                            <div class="sub-data-section-header chef-menu-header col-12 no-gutters">
+                                <div class="header-container col-12 row no-gutters">
+                                    <div class="chef-data row no-gutters col">
+                                        <img src="/Content/Images/user-m.png">
+                                        <div class="header-data col">
+                                            <div class="data-main-item row no-gutters">
+                                                <h3>محمد خليفة محمد</h3>
+                                                <div class="row rate  no-gutters"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></div>
+                                            </div>
+                                            <div class="data-sub-item row no-gutters">
+                                                <div class="sub-item "><p class="mr-0 ml-0 fi flaticon-pin-1">الموقع : <span> Alexabdria , Egypt</span></p></div>
+                                                <div class="sub-item"><p class="fi flaticon-chronometer">زمن التوصيل : <span> 35 دقيقة</span></p></div>
+                                                <div class="sub-item  col-12 row no-gutters"><p class="mr-0 ml-0 fi flaticon-credit-card">قيمة التوصيل : <span> 30 RS</span></p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tools row no-gutters ">
+                                        <ul>
+                                            <li class="collapse-btn"><a class="fi flaticon-arrow-down-sign-to-navigate"></a></li>
+                                            <!-- <li><a class="fas fa-star"></a></li>
+                                            <li class="devider"></li>
+                                            <li><a class="fi flaticon-menu menu-change-layout" data-layout="card"></a></li>
+                                            <li><a class="fi flaticon-list active sm-icon menu-change-layout" data-layout="list"></a></li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-data-section-body chef-menu-body col-12 collapse" id="#myCollapsible">
+                                <div class="chef-menu-body-main col-12 row no-gutters">
+                                    <ul class="nav nav-pills">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="today-tab" data-toggle="tab" href="#Today1" role="tab" aria-controls="Today" aria-selected="true">قائمة اليوم</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" id="meals-tab" data-toggle="tab" href="#AllMeals1" role="tab" aria-controls="AllMeals" aria-selected="true">قائمة الوجبات</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="Today1" role="tabpanel" aria-labelledby="today-tab">
+                                            <ul class="menu-list-container col-12 no-gutters row">
+                                                <li class="menu-item  col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M1.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn danger fi flaticon-supermarket-1" data-action="remove-from-cart"><span class="btn-text">إزالة من السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item  col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M3.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item  col-xl-6 ol-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M4.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M3.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M4.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M2.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M1.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="menu-list-footer row no-gutters">
+                                                <a href="/ClientProject/ChefDetails.html" class="">عرض المزيد</a>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade show" id="AllMeals1" role="tabpanel" aria-labelledby="meals-tab">
+                                            <ul class="menu-list-container col-12 no-gutters row">
+                                                <li class="menu-item  col-xl-6 ol-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M4.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M3.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item  col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M1.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item  col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M3.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M4.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M2.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M1.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="menu-list-footer row no-gutters">
+                                                <a href="/ClientProject/ChefDetails.html" class="">عرض المزيد</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div  class="sub-data-section-footer chef-menu-footer col-12">
+                            </div> -->
+                        </div>
+                        <div  class="sub-data-section col-12 row no-gutters chef-menu has-footer">
+                            <div class="sub-data-section-header chef-menu-header col-12 no-gutters">
+                                <div class="header-container col-12 row no-gutters">
+                                    <div class="chef-data row no-gutters col">
+                                        <img src="/Content/Images/user-f.png">
+                                        <div class="header-data col">
+                                            <div class="data-main-item row no-gutters">
+                                                <h3>فاطمة إسماعيل محمد</h3>
+                                                <div class="row rate  no-gutters"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span></div>
+                                            </div>
+                                            <div class="data-sub-item row no-gutters">
+                                                <div class="sub-item "><p class="mr-0 ml-0 fi flaticon-pin-1">الموقع : <span> Alexabdria , Egypt</span></p></div>
+                                                <div class="sub-item"><p class="fi flaticon-chronometer">زمن التوصيل : <span> 35 دقيقة</span></p></div>
+                                                <div class="sub-item  col-12 row no-gutters"><p class="mr-0 ml-0 fi flaticon-credit-card">قيمة التوصيل : <span> 30 RS</span></p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tools row no-gutters ">
+                                        <ul>
+                                            <li class="collapse-btn"><a class="fi flaticon-arrow-down-sign-to-navigate"></a></li>
+                                            <!-- <li><a class="fas fa-star"></a></li>
+                                            <li class="devider"></li>
+                                            <li><a class="fi flaticon-menu menu-change-layout" data-layout="card"></a></li>
+                                            <li><a class="fi flaticon-list active sm-icon menu-change-layout" data-layout="list"></a></li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-data-section-body chef-menu-body col-12 collapse" id="#myCollapsible">
+                                <div class="chef-menu-body-main col-12 row no-gutters">
+                                    <ul class="nav nav-pills">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="today-tab" data-toggle="tab" href="#Today2" role="tab" aria-controls="Today" aria-selected="true">قائمة اليوم</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" id="meals-tab" data-toggle="tab" href="#AllMeals2" role="tab" aria-controls="AllMeals" aria-selected="true">قائمة الوجبات</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="Today2" role="tabpanel" aria-labelledby="today-tab">
+                                            <ul class="menu-list-container col-12 no-gutters row">
+                                                <li class="menu-item  col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M1.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item  col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M3.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item  col-xl-6 ol-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M4.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M3.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M4.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M2.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M1.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="menu-list-footer row no-gutters">
+                                                <a href="/ClientProject/ChefDetails.html" class="">عرض المزيد</a>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade show" id="AllMeals2" role="tabpanel" aria-labelledby="meals-tab">
+                                            <ul class="menu-list-container col-12 no-gutters row">
+                                                <li class="menu-item  col-xl-6 ol-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M4.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M3.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item  col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M1.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item  col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M3.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M4.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M2.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item col-xl-6 col-12 row no-gutters">
+                                                    <a class="menu-item-container col-12 row no-gutters" href="/ClientProject/MealDetails.html">
+                                                        <div class="menu-item-image">
+                                                            <div class="shadow"></div>
+                                                            <img src="/Content/Images/Meals/M1.jpg">
+                                                        </div>
+                                                        <div class="menu-item-data row no-gutters col">
+                                                            <h4 class="col-12 row no-gutters">إسم الوجبة</h4>
+                                                            <div class="meal-meta col-12 row no-gutters"><span class="far fa-folder">دجاج</span><span class="fi flaticon-time-left"><span>50</span> دقيقة</span></div>
+                                                            <p>تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل الوجبة .... تفاصيل .... تفاصيل الوجبة</p>
+                                                        </div>
+                                                        <div class="price"><h5>RS</h5><h4>250</h4></div>
+                                                        <div class="menu-item-tools">
+                                                            <button class="gbtn-o icon-btn success fi flaticon-supermarket-1" data-action="add-to-cart" type="button"><span class="btn-text">أضف إلى السلة</span></button>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="menu-list-footer row no-gutters">
+                                                <a href="/ClientProject/ChefDetails.html" class="">عرض المزيد</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div  class="sub-data-section-footer chef-menu-footer col-12">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="side-page-footer Footer">
+                <div class="footer-container col-lg-11 col-12 row no-gutters">
+                    <div class="col-md-6 col-12 contact-div">
+                        <img class="logo" src="/Content/Images/ar-new.png" alt="Logo">
+                        <p class="fi flaticon-placeholder">مدينة الملك عبد العزيز للعلوم و التقنية - بادر الطائف</p>
+                        <p class="fi flaticon-telephone"><span class="telephone">00966 539395039</span></p>
+                        <p class="fi flaticon-email">career@tatbela.com</p>
+                    </div>
+                    <div class="col-md-6 col-12 company-div">
+                        <div class="side-align col-xl-11 col-12 company-div-container">
+                            <div class="subscribe-container row no-gutters">
+                                <h3 class="col-12">أحصل على أخر أخبارنا</h3>
+                                <div class="pl-0 pr-0 warning col-12 text-input-btn form-group fi flaticon-email">
+                                    <input type="text" name="subscribeNews" class=" form-control" id="subscribeNews" placeholder="إدخل البريد الإلكترونى الخاص بك">
+                                    <button class="submit-btn">إشترك</button>
+                                </div>
+                            </div>
+                            <div class="social-icons">
+                                <a class="fi flaticon-facebook-logo" href="https://www.facebook.com/tatbelaapp/"></a>
+                                <a class="fi flaticon-twitter-sign" href="https://mobile.twitter.com/TatbelaApp"></a>
+                                <a class="fi flaticon-instagram-logo" href="https://www.instagram.com/tatbelaapp/"></a>
+                                <a class="fi flaticon-social-google-plus-square-button" href="https://plus.google.com/105471210403958528362"></a>
+                                <a class="fi flaticon-youtube-logo" href="https://www.youtube.com/channel/UCagd7Pb01MZ0UcdA8vjTTJg"></a>
+                            </div>
+                            <div class="download-icons">
+                                <img class="download" src="/Content/Images/android.png" alt="Android">
+                                <img class="download" src="/Content/Images/ios.png" alt="Ios">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-footer col-12">
+                        <p> ملك مؤسسة المدى الأخير للتجارة</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

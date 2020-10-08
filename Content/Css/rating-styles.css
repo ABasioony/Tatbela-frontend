@@ -1,0 +1,66 @@
+/* Start Button */
+.btn-rating,
+.btn-send{
+    background-color: #60992A;
+    border-radius: 10px;
+    border: 1px solid #60992A;
+    padding: 11px 30px;
+    color: #fff;
+    outline: none;
+    cursor: pointer
+}
+
+html[dir="rtl"] .btn:focus{
+  box-shadow: 0 0 0 0.2rem rgba(96, 153, 42, 0.25);
+}
+
+html[dir="rtl"] .modal-header .close {
+  padding: 1rem;
+  margin: -1rem 19rem -1rem auto;
+}
+/* End Button */
+
+/* Start Rate Body */
+
+html[dir="rtl"] .rate p{
+    text-align: right;
+}
+html[dir="rtl"] .rate:not(:nth-of-type(3)){
+    border-bottom: 1px #ced4da solid;
+    margin-bottom: 8px;
+}
+/* End Rate Body */
+
+/* Start Rating Star Widgets Style */
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating > label:before {
+  content: "\f005"; /* Star */
+  margin: 2px;
+  font-size: 20px;
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+.starrating > label
+{
+  color: #9a9a9a; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating > input:hover ~ label
+{ color: #ffca08 ;  } /* Set yellow color when star hover */
+
+.form-control{
+  display: table-cell !important;
+}
+/* End Rating Star Widgets Style */
+
+/* Text Area */
+html[dir="rtl"] .form-control:focus{
+  border-color: #60992A;
+  box-shadow: 0 0 0 0.2rem rgba(96, 153, 42, 0.25);
+}
+

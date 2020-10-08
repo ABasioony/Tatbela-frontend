@@ -1,0 +1,833 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content=" تتبيلة هو موقع الكترونى يتيح لك طلب اكل بيت صحى و نظيف اونلابن بكل سهولة فى كل انحاء المملكة العربية السعودية كما يتيح مشروع منزلى ناجح لربات المنزل و الطباخين">
+    <meta name="keywords" content="اكل بيت, اكل بيتى , مشروع اكل بيتى , مشروع منزلى ناجح , موقع تتبيلة , تطبيق تتبيلة , اطلب اكل بيتى اونلاين , اكل بيتى فى السعودية ">
+    <link rel="shortcut icon" href="/Content/Images/favicon.ico">
+    <title>اكل بيت | اطلب اكل بيتى اونلاين | مشروعات منزلية - تتبيلة</title>
+
+    <!---------------------- Styles : Begin ------------------------->
+    <link rel="stylesheet" href="/Content/Css/styles.css">
+    <link rel="stylesheet" href="/Content/Css/ion.rangeSlider.min.css">
+    <link rel="stylesheet" href="/Content/Css/bootstrap-datepicker.min.css">
+    <!---------------------- Styles : End --------------------------->
+
+    <!---------------------- Scripts : Begin ------------------------>
+    <script src="/Content/Js/Plugins/jquery-3.2.1.min.js"></script>
+    <script src="/Content/Js/Plugins/jquery-ui.min.js"></script>
+    <script src="/Content/Js/Plugins/bootstrap.bundle.min.js"></script>
+    <!-- <script src="/Content/Js/Plugins/bootstrap.min.js"></script> -->
+    <script src="/Content/Js/Plugins/popper.min.js"></script>
+    <script src="/Content/Js/Plugins/owl.carousel.min.js"></script>
+    <script src="/Content/Js/Plugins/ion.rangeSlider.min.js"></script>
+    <script src="/Content/Js/Plugins/bootstrap-datepicker.min.js"></script>
+    <script src="/Content/Js/Plugins/bootstrap-datepicker.ar.min.js"></script>
+    <script src="/Content/Js/Plugins/bootstrap-datepicker.ar-tn.min.js"></script>
+    <script src="/Content/Js/Core.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=Your_API_KEy&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=Your_API_KEy&callback=initMap2"></script>
+    <!---------------------- Scripts : End -------------------------->
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <!---------------------- Header : Begin ------------------------>
+        <nav class="main-header row no-gutters col-12 has-background">
+            <div class="main-header-container col-lg-10 col-12 ">
+                <ul class="col header-tools">
+                    <li><a href="#">English</a></li>
+                    <li>
+                        <p>مرحبا بكم فى تتبيلة</p>
+                    </li>
+                </ul>
+                <div class="logo-container"><img alt="Tatbela" src="/Content/Images/ar-new-ws.png" class="Logo" /></div>
+                <!--------------After Login Menu : Begin ------------------->
+                <ul class="col d-xl-flex d-lg-flex d-none header-authenticate">
+                    <li class="user-op-list">
+                        <a id="userdropdownMenuButton"  data-toggle="dropdown" data-target="UsermenuDrop" aria-haspopup="true" aria-expanded="false">
+                            <img src="/Content/Images/bg1.jpg">
+                            <p>محمد خليفة</p>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="userdropdownMenuButton" id="UsermenuDrop">
+                            <h6 class="dropdown-header">إدارة الحساب</h6>
+                            <a class="dropdown-item" href="/ClientProject/MyProfile.html">حسابى</a>
+                            <a class="dropdown-item" href="/Index.html">تسجيل خروج</a>
+                        </div>
+                    </li>
+                </ul>
+                <!--------------After Login Menu : End ------------------->
+
+                <!--------------Responsive MinWidth Show Only Menu : Begin ------------------->
+                <div class="white-icons col d-xl-none d-lg-none d-flex header-icons dropdown">
+                    <a class="icon-link fas fa-bars" id="dropdownMenuButton" data-toggle="dropdown" data-target="menuDrop" aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menuDrop">
+                        <h6 class="dropdown-header">إدارة الحساب</h6>
+                        <a class="profile-item">
+                            <img src="/Content/Images/bg1.jpg">
+                            <p>محمد خليفة</p>
+                        </a>
+                        <a class="dropdown-item" href="/ClientProject/MyProfile.html">حسابى</a>
+                        <a class="dropdown-item" href="/Index.html">تسجيل خروج</a>
+                        <h6 class="dropdown-header">الصفحات</h6>
+                        <a class="dropdown-item" href="/Index-Client.html">الرئيسية</a>
+                        <a class="dropdown-item" href="/Clientproject/Cart.html">سلة المشتريات</a>
+                        <a class="dropdown-item" href="/ClientProject/Finder.html">إبحث عن طباخ</a>
+                        <a class="dropdown-item" href="/Clientproject/OurChefs.html">طباخينا</a>
+                        <a class="dropdown-item" href="#">مدونة تتبيلة</a>
+                        <a class="dropdown-item" href="/Market.html">سوق تتبيلة</a>
+                        <a class="dropdown-item" href="#">إسأل تتبيلة</a>
+                        <a class="dropdown-item" href="/ConditionsAndTerms.html">الشروط و الاحكام</a>
+                        <a class="dropdown-item" href="/About.html">اعرف عنا</a>
+                        <a class="dropdown-item" href="#">اتصل بنا</a>
+                        
+                    </div>
+                </div>
+                <!--------------Responsive MinWidth Show Only Menu : End ------------------->
+            </div>
+            <nav class="SubHeaderClass d-xl-flex d-lg-flex d-none sub-header row no-gutters col-lg-10 col-12 white-bg">
+                <a class=" fi icon-link flaticon-home" href="/Index.html"></a>
+                <ul class="main-menu">
+                    <li class="main-menu-item show-sm"><a class="fi flaticon-home" href="/Index.html">الرئيسية</a></li>
+                    <li class="main-menu-item show-sm"><a class="fi flaticon-supermarket-1" href="/Clientproject/Cart.html">سلة
+                            المشتريات</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-magnifier" href="/ClientProject/Finder.html">إبحث
+                            عن طباخ</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-cooker" href="/Clientproject/OurChefs.html">طباخينا</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-writing">مدونة تتبيلة</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-writing" href="/Market.html">سوق تتبيلة</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-lifeguard">إسأل تتبيلة</a></li>
+                    <li class="main-menu-item"><a class="fas fa-list" href="/ConditionsAndTerms.html">الشروط و الاحكام</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-help-button-speech-bubble-with-question-mark" href="/About.html">اعرف عنا</a></li>
+                    <li class="main-menu-item"><a class="fi flaticon-old-typical-phone">اتصل بنا</a></li>
+                </ul>
+                <a class=" fi icon-link after-menu flaticon-supermarket-1" href="/Clientproject/Cart.html"><span>0</span></a>
+            </nav>
+        </nav>
+        <!---------------------- Header : End ------------------------>
+        <div class="main-data-container row no-gutters">
+            <ul class="site-map row no-gutters col-10">
+                <li><a href="/Index.html">الصفحة الرئيسية</a></li>
+                <li class="current">حسابي</li>
+            </ul>
+            <div class="main-data-section-wrapper side-wrap row no-gutters col-xl-3 col-lg-4 col-11">
+                <div class="col-12 main-data-section row no-gutters">
+                    <div class="sub-data-section col-12 row border-bottom-0">
+                        <div class="sub-data-section-header">
+                            <h3>حسابي</h3>
+                        </div>
+                        <div class="sub-data-section-body row col-12 no-gutters">
+                            <ul class="col-12 no-gutters row MyProfileUL nav-tabs nav">
+                                <li class="col-12 row "><a id="General-Settings-tab" data-toggle="tab" class="col-12 active"
+                                        href="#GeneralSettings" role="tab" aria-controls="General-Settings-tab"
+                                        aria-selected="true"><span class="fi flaticon-user"></span>تفاصيل عامة</a></li>
+                                <li class="col-12 row "><a id="Addresses-tab" data-toggle="tab" class="col-12 " href="#Addresses"
+                                        role="tab" aria-controls="Addresses-tab" aria-selected="true"><span class="fi flaticon-map"></span>عناويني</a></li>
+                                <li class="col-12 row "><a id="Orders-tab" data-toggle="tab" class="col-12 " href="#Orders"
+                                        role="tab" aria-controls="Orders-tab" aria-selected="true"><span class="fi flaticon-order"></span>الطلبات</a></li>
+                                        <li class="col-12 row "><a id="OrdersMarket-tab" data-toggle="tab" class="col-12 " href="#OrdersMarket"
+                                            role="tab" aria-controls="OrdersMarket-tab" aria-selected="true"><span class="fi flaticon-supermarket"></span>المشتريات</a></li>
+                                <li class="col-12 row "><a id="Payment-Methods-tab" data-toggle="tab" class="col-12 "
+                                        href="#PaymentMethods" role="tab" aria-controls="Payment-Methods-tab"
+                                        aria-selected="true"><span class="fi flaticon-credit-card"></span>وسائل الدفع</a></li>
+                                <li class="col-12 row "><a id="Help-tab" data-toggle="tab" class="col-12 " href="#Help"
+                                        role="Help-tab" aria-controls="Help-tab" aria-selected="true"><span class="fi flaticon-lifeguard"></span>مركز
+                                        المساعدة</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-data-section-wrapper main-wrap row no-gutters col-xl-7 col-lg-6 col-11">
+                <div class="col-12 col-lg-12 col-md-12 main-data-section row no-gutters">
+                    <div class="sub-data-section col-12 row no-gutters">
+                        <div class="tab-content col-12">
+                            <!------------------ General Settings : Begin ------------------>
+                            <div id="GeneralSettings" class="tab-pane fade in active show">
+                                <div class="col-12 no-gutters row p-0">
+                                    <div class="sub-data-section-header row no-gutters">
+                                        <div class="header-container col-12 row no-gutters ">
+                                            <h3>تفاصيل عامة</h3>
+                                        </div>
+                                    </div>
+                                    <div class="tab-body sub-data-section-body col-12">
+                                        <form class="col-12 row sub-data-section-body-main no-gutters general-settings-form">
+                                            <div class="sectionStart col-lg-4 col-12">
+                                                <img src="/Content/Images/HeaderBg.jpg" class="col-12" alt="profile picture">
+                                                <a class="gbtn-o warning col-10" data-toggle="modal" data-target="#ChangePasswordModal">تغيير
+                                                    كلمة المرور</a>
+                                            </div>
+                                            <div class="sectionEnd col-xl-8 col-12 row ">
+                                                <div class="col-6  text-input lightGray form-group">
+                                                    <label for="FirstName">الاسم الاول</label>
+                                                    <input type="text" name="FirstName" class="form-control" id="FirstName"
+                                                        placeholder="الاسم الاول">
+                                                </div>
+                                                <div class="col-6  text-input lightGray form-group">
+                                                    <label for="FamilyName">لقب العائلة</label>
+                                                    <input type="text" name="FamilyName" class="form-control" id="FamilyName"
+                                                        placeholder="لقب العائلة">
+                                                </div>
+                                                <div class="col-12  text-input lightGray form-group">
+                                                    <label for="Email">البريد الالكتروني</label>
+                                                    <input type="email" name="Email" class="form-control" id="Email"
+                                                        placeholder="البريد الالكتروني">
+                                                </div>
+                                                <div class="col-12 text-input lightGray form-group">
+                                                    <label for="Phone">رقم التليفون</label>
+                                                    <input type="text" name="Phone" class="form-control" id="Phone"
+                                                        placeholder="رقم التليفون">
+                                                </div>
+                                                <div class="form-footer row col-12">
+                                                    <button class="gbtn-o success warning">تعديل</button>
+                                                    <button class="gbtn-o dark danger">الغاء</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------------------ General Settings : End ------------------>
+
+                            <!------------------ Addresses : Begin ------------------>
+                            <div id="Addresses" class="tab-pane fade">
+                                <div class="col-12 no-gutters row p-0">
+                                    <div class="sub-data-section-header row no-gutters">
+                                        <div class="header-container col-12 row no-gutters">
+                                            <h3>عناويني</h3>
+                                            <a class="gbtn-o success fas fa-plus" data-toggle="modal" data-target="#AddAddressModal">اضف
+                                                عنوان</a>
+                                        </div>
+                                    </div>
+                                    <div class="tab-body sub-data-section-body col-12 row no-gutters address-tab">
+                                        <div class="col-12 row sub-data-section-body-main no-gutters">
+                                            <div class="address-conatiner col-12 row justify-content-center no-gutters">
+                                                <div class="address-header col-12 row justify-content-start">
+                                                    <h6>العنوان الرئيسي</h6>
+                                                </div>
+                                                <div class="address-Body col-12 row justify-content-center no-gutters">
+                                                    <div class="Address col-12 row">
+                                                        <div class="Address-data col row no-gutters ">
+                                                            <span class="fi flaticon-placeholder"></span>
+                                                            <div class="address-sub-data">
+                                                                <p class="title col-12 px-0"> عنوان 1</p>
+                                                                <p class="details col-12 px-0">25 Horya Street, Alexandria, Egypt</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Address-tools row no-gutters">
+                                                            <a class="warning fi flaticon-writing" data-toggle="modal" data-target="#EditAddressModal"></a>
+                                                            <a class="danger far fa-trash-alt" onclick="$('#DeleteApproval').modal('show')"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="address-conatiner col-12 row justify-content-center no-gutters">
+                                                <div class="address-header col-12 row justify-content-start">
+                                                    <h6>كل العناويين</h6>
+                                                </div>
+                                                <div class="address-Body col-12 row justify-content-center no-gutters">
+                                                    <div class="Address col-12 row">
+                                                        <div class="Address-data col row no-gutters ">
+                                                            <span class="fi flaticon-placeholder"></span>
+                                                            <div class="address-sub-data">
+                                                                <p class="title col-12 px-0"> عنوان 1</p>
+                                                                <p class="details col-12 px-0">25 Horya Street, Alexandria, Egypt</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Address-tools row no-gutters">
+                                                            <a class="warning fi flaticon-writing" data-toggle="modal" data-target="#EditAddressModal"></a>
+                                                            <a class="danger far fa-trash-alt" onclick="$('#DeleteApproval').modal('show')"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="Address col-12 row">
+                                                        <div class="Address-data col row no-gutters ">
+                                                            <span class="fi flaticon-placeholder"></span>
+                                                            <div class="address-sub-data">
+                                                                <p class="title col-12 px-0"> عنوان 2</p>
+                                                                <p class="details col-12 px-0">25 Horya Street, Alexandria, Egypt</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Address-tools row no-gutters">
+                                                            <a class="warning fi flaticon-writing" data-toggle="modal" data-target="#EditAddressModal"></a>
+                                                            <a class="danger far fa-trash-alt" onclick="$('#DeleteApproval').modal('show')"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="Address col-12 row">
+                                                        <div class="Address-data col row no-gutters ">
+                                                            <span class="fi flaticon-placeholder"></span>
+                                                            <div class="address-sub-data">
+                                                                <p class="title col-12 px-0"> عنوان 3</p>
+                                                                <p class="details col-12 px-0">25 Horya Street, Alexandria, Egypt</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Address-tools row no-gutters">
+                                                            <a class="warning fi flaticon-writing" data-toggle="modal" data-target="#EditAddressModal"></a>
+                                                            <a class="danger far fa-trash-alt" onclick="$('#DeleteApproval').modal('show')"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------------------ Addresses : End ------------------>
+
+                            <!------------------ Orders : Begin ------------------>
+                            <div id="Orders" class="tab-pane fade">
+                                <div class="col-12 row no-gutters p-0">
+                                    <div class="sub-data-section-header row no-gutters">
+                                        <div class="header-container col-12 row no-gutters">
+                                            <h3>الطلبات</h3>
+                                        </div>
+                                    </div>
+                                    <div class="tab-body sub-data-section-body orders-menu-body col-12 row no-gutters">
+                                        <div class="orders-menu-body-main sub-data-section-body-main col-12 row no-gutters">
+                                            <ul class="nav nav-pills col-12">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="current-tab" data-toggle="tab" href="#current"
+                                                        role="tab" aria-controls="Current" aria-selected="true">الطلبات
+                                                        الحالية</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="history-tab" data-toggle="tab" href="#history"
+                                                        role="tab" aria-controls="History" aria-selected="true">الطلبات
+                                                        السابقة</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content sub-data-tab-content col-12 row no-gutters" id="myTabContent">
+                                                <div class="tab-pane fade show active sub-data-tab-pane col-12 row no-gutters"
+                                                    id="current" role="tabpanel" aria-labelledby="today-tab">
+                                                    <ul class="order-list col-12 row no-gutters">
+                                                        <li class="order-item col-12 row no-gutters">
+                                                            <a class="Order col-12 row no-gutters" href="/ClientProject/OrderDetails_InProgress.html">
+                                                                <div class="Order-data col row no-gutters">
+                                                                    <p class="title col-12">طلب رقم 1</p>
+                                                                    <div class="details col-12">
+                                                                        <p class="fi flaticon-supermarket">5 وجبات </p>
+                                                                        <p class="fi flaticon-cooker">احمد </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="Order-tools row no-gutters">
+                                                                    <p class="state col-12 warning"><span class="fi flaticon-loading-mark"></span>
+                                                                        طلبك قيد التجهيز</p>
+                                                                    <p class="price col-12">53 <span>جنيه</span></p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="order-item col-12 row no-gutters">
+                                                            <a class="Order col-12 row no-gutters">
+                                                                <div class="Order-data col row no-gutters">
+                                                                    <p class="title col-12">طلب رقم 2</p>
+                                                                    <div class="details col-12">
+                                                                        <p class="fi flaticon-supermarket">5 وجبات </p>
+                                                                        <p class="fi flaticon-cooker">احمد </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="Order-tools row no-gutters">
+                                                                    <p class="state col-12 dark-warning"><span class="fi flaticon-calendar-with-a-clock-time-tools"></span>
+                                                                        طلب لاحق</p>
+                                                                    <p class="price col-12">53 <span>جنيه</span></p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="tab-pane fade show sub-data-tab-pane col-12 row no-gutters"
+                                                    id="history" role="tabpanel" aria-labelledby="meals-tab">
+                                                    <ul class="order-list col-12 row no-gutters">
+                                                        <li class="order-item col-12 row no-gutters">
+                                                            <a class="Order col-12 row no-gutters ">
+                                                                <div class="Order-data col row no-gutters">
+                                                                    <p class="title col-12">طلب رقم 1</p>
+                                                                    <div class="details col-12">
+                                                                        <p class="fi flaticon-supermarket">5 وجبات </p>
+                                                                        <p class="fi flaticon-cooker">احمد </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="Order-tools row no-gutters">
+                                                                    <p class="state col-12 danger"><span class="fi flaticon-x-button"></span>
+                                                                        تم الالغاء</p>
+                                                                    <p class="price col-12">53 <span>جنيه</span></p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="order-item col-12 row no-gutters">
+                                                            <a class="Order col-12 row no-gutters">
+                                                                <div class="Order-data col row no-gutters">
+                                                                    <p class="title col-12">طلب رقم 1</p>
+                                                                    <div class="details col-12">
+                                                                        <p class="fi flaticon-supermarket">5 وجبات </p>
+                                                                        <p class="fi flaticon-cooker">احمد </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="Order-tools row no-gutters">
+                                                                    <p class="state col-12 success"><span class="fi flaticon-task-complete"></span>
+                                                                        تم التوصيل</p>
+                                                                    <p class="price col-12">53 <span>جنيه</span></p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------------------ Orders : End ------------------>
+
+                            <!------------------ Orders Market : Begin ------------------>
+                            <div id="OrdersMarket" class="tab-pane fade">
+                                <div class="col-12 row no-gutters p-0">
+                                    <div class="sub-data-section-header row no-gutters">
+                                        <div class="header-container col-12 row no-gutters">
+                                            <h3>المشتريات</h3>
+                                        </div>
+                                    </div>
+                                    <div class="tab-body sub-data-section-body orders-menu-body col-12 row no-gutters">
+                                        <div class="orders-menu-body-main sub-data-section-body-main col-12 row no-gutters">
+                                            <div class="tab-content sub-data-tab-content col-12 row no-gutters" id="myTabContent">
+                                                <ul class="order-list col-12 row no-gutters">
+                                                    <li class="order-item col-12 row no-gutters">
+                                                        <a class="Order col-12 row no-gutters" href="/OrderMarketDetails_InProgress.html">
+                                                            <div class="Order-data col row no-gutters">
+                                                                <p class="title col-12">طلب رقم 1</p>
+                                                                <div class="details col-12">
+                                                                    <p class="fi flaticon-supermarket">5 منتجات </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="Order-tools row no-gutters">
+                                                                <p class="state col-12 warning"><span class="fi flaticon-loading-mark"></span>
+                                                                    طلبك قيد التجهيز</p>
+                                                                <p class="price col-12">53 <span>جنيه</span></p>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="order-item col-12 row no-gutters">
+                                                        <a class="Order col-12 row no-gutters" href="/OrderMarketDetails_Succeed.html">
+                                                            <div class="Order-data col row no-gutters">
+                                                                <p class="title col-12">طلب رقم 2</p>
+                                                                <div class="details col-12">
+                                                                    <p class="fi flaticon-supermarket">5 منتجات </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="Order-tools row no-gutters">
+                                                                <p class="state col-12 success"><span class="fi flaticon-task-complete"></span>
+                                                                    تم التوصيل</p>
+                                                                <p class="price col-12">53 <span>جنيه</span></p>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------------------ Orders Market : End ------------------>
+
+                            <!------------------ Payment Methods : Begin ------------------>
+                            <div id="PaymentMethods" class="tab-pane fade">
+                                <div class="col-12 row no-gutters p-0">
+                                    <div class="sub-data-section-header row no-gutters">
+                                        <div class="header-container col-12 row no-gutters">
+                                            <h3>وسائل الدفع</h3>
+                                        </div>
+                                    </div>
+                                    <div class="tab-body sub-data-section-body col-12 row no-gutters">
+                                        <form class="payment sub-data-section-body-main col-12">
+                                            <div class="col-12 text-input lightGray form-group">
+                                                <label for="CardNo">رقم بطاقة الائتمان</label>
+                                                <input type="text" name="CardNo" class="form-control" id="CardNo"
+                                                    placeholder="رقم بطاقة الائتمان">
+                                            </div>
+                                            <div class="col-12 text-input lightGray form-group">
+                                                <label for="EndDate">تاريخ انتهاء الصلاحية</label>
+                                                <input type="text" name="EndDate" class="form-control datepicker" id="EndDate"
+                                                    placeholder="تاريخ انتهاء الصلاحية">
+                                            </div>
+                                            <div class="col-12 text-input  lightGray form-group">
+                                                <label for="CVC">CVC</label>
+                                                <input type="text" name="CVC" class="form-control" id="CVC" placeholder="CVC">
+                                            </div>
+                                            <div class="form-footer row col-12">
+                                                <button class="gbtn-o success">تعديل</button>
+                                                <button class="gbtn-o dark">الغاء</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------------------ Payment Methods : End ------------------>
+
+                            <!------------------ Help : Begin ------------------>
+                            <div id="Help" class="tab-pane fade">
+                                <div class="col-12 row no-gutters p-0">
+                                    <div class="sub-data-section-header row no-gutters">
+                                        <div class="header-container col-12 row no-gutters">
+                                            <h3>مركز المساعدة</h3>
+                                            <a class="gbtn-o success fas fa-plus" data-toggle="modal" data-target="#reviewsModal">تقديم
+                                                شكوى</a>
+                                        </div>
+                                    </div>
+                                    <div class="tab-body sub-data-section-body col-12 row no-gutters">
+                                        <div class="main-Help sub-data-section-body-main col-12 row no-gutters justify-content-center">
+                                            <ul class="main-Help-Body col-12 row no-gutters justify-content-center">
+                                                <li class="Help col-12 row no-gutters">
+                                                    <a class="row col-12 no-gutters" href="/ClientProject/MyProfile-HelpDetails.html">
+                                                        <div class="Help-data col row no-gutters">
+                                                            <p class="title col-12">شكوى رقم 1</p>
+                                                            <p class="Date col-12">15/5/2018 - 11:30 PM</p>
+                                                            <p class="details col-12">معلومات عن المشكلة</p>
+                                                        </div>
+                                                        <div class="Help-tools">
+                                                            <p class="state col-12 warning"><span class="fi flaticon-loading-mark"></span>
+                                                                قيد المراجعة</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="Help col-12 row no-gutters">
+                                                    <a class="row col-12 no-gutters" href="/ClientProject/MyProfile-HelpDetails.html">
+                                                        <div class="Help-data col row no-gutters">
+                                                            <p class="title col-12">شكوى رقم 1</p>
+                                                            <p class="Date col-12">15/5/2018 - 11:30 PM</p>
+                                                            <p class="details col-12">معلومات عن المشكلة</p>
+                                                        </div>
+                                                        <div class="Help-tools">
+                                                            <p class="state col-12 success"><span class="fi flaticon-task-complete"></span>
+                                                                تم الحل</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="Help col-12 row no-gutters">
+                                                    <a class="row col-12 no-gutters" href="/ClientProject/MyProfile-HelpDetails.html">
+                                                        <div class="Help-data col row no-gutters">
+                                                            <p class="title col-12">شكوى رقم 1</p>
+                                                            <p class="Date col-12">15/5/2018 - 11:30 PM</p>
+                                                            <p class="details col-12">معلومات عن المشكلة</p>
+                                                        </div>
+                                                        <div class="Help-tools">
+                                                            <p class="state col-12 success"><span class="fi flaticon-task-complete"></span>
+                                                                تم الحل</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------------------ Help : End ------------------>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="side-page-footer Footer">
+            <div class="footer-container col-lg-11 col-12 row no-gutters">
+                <div class="col-md-6 col-12 contact-div">
+                    <img class="logo" src="/Content/Images/ar-new.png" alt="Logo">
+                    <p class="fi flaticon-placeholder">مدينة الملك عبد العزيز للعلوم و التقنية - بادر الطائف</p>
+                    <p class="fi flaticon-telephone"><span class="telephone">00966 539395039</span></p>
+                    <p class="fi flaticon-email">career@tatbela.com</p>
+                </div>
+                <div class="col-md-6 col-12 company-div">
+                    <div class="side-align col-xl-11 col-12 company-div-container">
+                        <div class="subscribe-container row no-gutters">
+                            <h3 class="col-12">أحصل على أخر أخبارنا</h3>
+                            <div class="pl-0 pr-0 warning col-12 text-input-btn form-group fi flaticon-email">
+                                <input type="text" name="subscribeNews" class=" form-control" id="subscribeNews"
+                                    placeholder="إدخل البريد الإلكترونى الخاص بك">
+                                <button class="submit-btn">إشترك</button>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a class="fi flaticon-facebook-logo" href="https://www.facebook.com/tatbelaapp/"></a>
+                            <a class="fi flaticon-twitter-sign" href="https://mobile.twitter.com/TatbelaApp"></a>
+                            <a class="fi flaticon-instagram-logo" href="https://www.instagram.com/tatbelaapp/"></a>
+                            <a class="fi flaticon-social-google-plus-square-button" href="https://plus.google.com/105471210403958528362"></a>
+                            <a class="fi flaticon-youtube-logo" href="https://www.youtube.com/channel/UCagd7Pb01MZ0UcdA8vjTTJg"></a>
+                        </div>
+                        <div class="download-icons">
+                            <img class="download" src="/Content/Images/android.png" alt="Android">
+                            <img class="download" src="/Content/Images/ios.png" alt="Ios">
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-footer col-12">
+                    <p> ملك مؤسسة المدى الأخير للتجارة</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!------------- Add Complain Modal ---------------->
+    <div class=" modal fade gmodal success" id="reviewsModal" tabindex="-1" role="dialog" aria-labelledby="reviewsModal"
+        aria-hidden="true">
+        <div class="modal-md center-Modal modal-dialog modal-dialog-centered" role="document">
+            <form class="modal-content">
+                <div class="special-header modal-header">
+                    <div class="modal-header-container col-12 row no-gutters ">
+                        <h3 class="fi flaticon-writing">تقديم شكوى</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="col-12 row modal-body-container">
+                        <div class="col-12  text-input lightGray form-group">
+                            <label for="Respond">سبب الشكوى</label>
+                            <select class="form-control choose-CompReason select-single" name="choose-CompReason" id="choose-CompReason">
+                                <option> سبب الشكوى</option>
+                                <option>سبب 1</option>
+                                <option>سبب 2</option>
+                                <option>سبب 3</option>
+                                <option>سبب 4</option>
+                            </select>
+                        </div>
+                        <div class="col-12  text-input lightGray form-group">
+                            <label for="help-Address">عنوان الشكوى</label>
+                            <input type="text" name="help-Address" class="form-control" id="help-Address" placeholder="عنوان الشكوى">
+                        </div>
+                        <div class="col-12  text-input lightGray form-group">
+                            <label for="help-Details">تفاصيل الشكوى</label>
+                            <input type="text" name="help-Details" class="form-control" id="help-Details" placeholder="تفاصيل الشكوى">
+                        </div>
+                        <div class="col-12  text-input lightGray form-group">
+                            <label for="OrderNumber">متعلقة بطلب</label>
+                            <select class="form-control choose-Order select-single" name="choose-Order" id="choose-Order">
+                                <option> الطلبات</option>
+                                <option>طلب 1</option>
+                                <option>طلب 2</option>
+                                <option>طلب 3</option>
+                                <option>طلب 4</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-footer-container col-12 row no-gutters ">
+                        <div class="footer-btns row no-gutters">
+                            <button class="gbtn-o success"><span calss="btn-text">تقديم</span></button>
+                            <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">إغلاق</span></button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!------------- Add Address Modal ---------------->
+    <div class=" modal fade gmodal success" id="AddAddressModal" tabindex="-1" role="dialog" aria-labelledby="AddAddressModal"
+        aria-hidden="true">
+        <div class="modal-lg modal-dialog center-Modal modal-dialog-centered" role="document">
+            <form class="modal-content map-modal col-12 row no-gutters">
+                <div class="data-side col-xl-6 col-12 ">
+                    <div class="special-header modal-header">
+                        <div class="modal-header-container col-12 row no-gutters ">
+                            <h3 class="fi flaticon-placeholder success">اضافة عنوان</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">×</span></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12 row modal-body-container">
+                            <div class="col-9  text-input lightGray form-group">
+                                <label for="AddressName">الاسم</label>
+                                <input type="text" name="AddressName" class="form-control" id="AddressName" placeholder="الاسم">
+                            </div>
+                            <div class=" custom-control col custom-checkbox row no-gutters">
+                                <input type="checkbox" class="custom-control-input" id="RememberMe" name="remember">
+                                <label class="custom-control-label" for="RememberMe">عنوان رئيسي</label>
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="AddressLocation">الموقع</label>
+                                <input type="text" name="AddressLocation" class="form-control" id="AddressLocation"
+                                    placeholder="الموقع">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="AddressDetails">العنوان</label>
+                                <input type="text" name="AddressDetails" class="form-control" id="AddressDetails"
+                                    placeholder="العنوان">
+                            </div>
+                            <div class="col-6  text-input lightGray form-group">
+                                <label for="Floor">الدور</label>
+                                <input type="text" name="Floor" class="form-control" id="Floor" placeholder="الدور">
+                            </div>
+                            <div class="col-6  text-input lightGray form-group">
+                                <label for="Appartment">الشقة</label>
+                                <input type="text" name="Appartment" class="form-control" id="Appartment" placeholder="الشقة">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="OtherDetails">تفاصيل اخرى</label>
+                                <input type="text" name="OtherDetails" class="form-control" id="OtherDetails"
+                                    placeholder="تفاصيل اخرى">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="DeliveryInstructions">تعليمات التوصيل</label>
+                                <input type="text" name="DeliveryInstructions" class="form-control" id="DeliveryInstructions"
+                                    placeholder="تعليمات التوصيل">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer-container col-12 row no-gutters ">
+                            <div class="footer-btns row no-gutters">
+                                <button class="gbtn-o success"><span calss="btn-text">اضافة</span></button>
+                                <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">إغلاق</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-side col-xl-6 col-12 row no-gutters">
+                    <div class="col-12 row no-gutters map-section" id="mapadd"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!------------- Edit Address Modal ---------------->
+    <div class=" modal fade gmodal warning" id="EditAddressModal" tabindex="-1" role="dialog" aria-labelledby="EditAddressModal"
+        aria-hidden="true">
+        <div class="modal-lg modal-dialog modal-dialog-centered center-Modal" role="document">
+            <form class="modal-content map-modal col-12 row no-gutters">
+                <div class="data-side col-6">
+                    <div class="special-header modal-header">
+                        <div class="modal-header-container col-12 row no-gutters ">
+                            <h3 class="fi flaticon-placeholder success">تعديل بيانات عنوان</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">×</span></button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12 row modal-body-container">
+                            <div class="col-9  text-input lightGray form-group">
+                                <label for="AddressName">الاسم</label>
+                                <input type="text" name="AddressName" class="form-control" id="AddressName" placeholder="الاسم">
+                            </div>
+                            <div class=" custom-control col custom-checkbox row no-gutters">
+                                <input type="checkbox" class="custom-control-input" id="MainAddEdit" name="remember">
+                                <label class="custom-control-label" for="MainAddEdit">عنوان رئيسي</label>
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="AddressLocation">الموقع</label>
+                                <input type="text" name="AddressLocation" class="form-control" id="AddressLocation"
+                                    placeholder="الموقع">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="AddressDetails">العنوان</label>
+                                <input type="text" name="AddressDetails" class="form-control" id="AddressDetails"
+                                    placeholder="العنوان">
+                            </div>
+                            <div class="col-6  text-input lightGray form-group">
+                                <label for="Floor">الدور</label>
+                                <input type="text" name="Floor" class="form-control" id="Floor" placeholder="الدور">
+                            </div>
+                            <div class="col-6  text-input lightGray form-group">
+                                <label for="Appartment">الشقة</label>
+                                <input type="text" name="Appartment" class="form-control" id="Appartment" placeholder="الشقة">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="OtherDetails">تفاصيل اخرى</label>
+                                <input type="text" name="OtherDetails" class="form-control" id="OtherDetails"
+                                    placeholder="تفاصيل اخرى">
+                            </div>
+                            <div class="col-12  text-input lightGray form-group">
+                                <label for="DeliveryInstructions">تعليمات التوصيل</label>
+                                <input type="text" name="DeliveryInstructions" class="form-control" id="DeliveryInstructions"
+                                    placeholder="تعليمات التوصيل">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer-container col-12 row no-gutters ">
+                            <div class="footer-btns row no-gutters">
+                                <button class="gbtn-o warning"><span calss="btn-text">تعديل</span></button>
+                                <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">إغلاق</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-side col-6 row no-gutters">
+                    <div class="col-12 row no-gutters map-section" id="mapadd"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!------------- Change Password Modal ---------------->
+    <div class=" modal fade gmodal warning" id="ChangePasswordModal" tabindex="-1" role="dialog" aria-labelledby="ChangePasswordModal"
+        aria-hidden="true">
+        <div class="modal-md center-Modal modal-dialog modal-dialog-centered" role="document">
+            <form class="modal-content">
+                <div class="special-header modal-header">
+                    <div class="modal-header-container col-12 row no-gutters ">
+                        <h3 class="warning fi flaticon-password ">تغيير كلمة المرور</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="col-12 row modal-body-container">
+                        <div class="col-12  text-input lightGray form-group">
+                            <label for="oldPassword">كلمة المرور الحالية</label>
+                            <input type="text" name="oldPassword" class="form-control" id="oldPassword" placeholder="كلمة المرور الحالية">
+                        </div>
+                        <div class="col-12  text-input lightGray form-group">
+                            <label for="NewPassword">كلمة المرور الجديدة</label>
+                            <input type="text" name="NewPassword" class="form-control" id="NewPassword" placeholder="كلمة المرور الجديدة">
+                        </div>
+                        <div class="col-12  text-input lightGray form-group">
+                            <label for="ConfirmNewPassword"> تاكيد كلمة المرور الجديدة</label>
+                            <input type="text" name="ConfirmNewPassword" class="form-control" id="ConfirmNewPassword"
+                                placeholder="تاكيد كلمة المرور الجديدة">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-footer-container col-12 row no-gutters ">
+                        <div class="footer-btns row no-gutters">
+                            <button class="gbtn-o warning"><span calss="btn-text" data-dismiss="modal">تعديل</span></button>
+                            <button class="gbtn-o dark"><span calss="btn-text" data-dismiss="modal">إغلاق</span></button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!------------- Delete Approval Modal ---------------->
+    <div class="modal fade" id="DeleteApproval" tabindex="-1" role="dialog" aria-labelledby="DeleteApproval" aria-hidden="true">
+        <div class="modal-md modal-dialog modal-dialog-centered" role="document">
+            <form class="modal-content msg-modal">
+                <div class="special-header modal-header">
+                    <button type="button" class="close fas fa-times" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-icon danger"><span class="far fa-trash-alt"></span></div>
+                    <p class="col-lg-10 col-12">تم أنت متأكد من إزالة هذه البيانات ؟ </p>
+                </div>
+                <div class="modal-footer mt-0 pt-0">
+                    <a class="gbtn-o success">نعم</a>
+                    <a class="gbtn-o dark">لا</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    $.fn.datepicker.defaults.format = "mm/yy";
+    $('.datepicker').datepicker({
+        startDate: '-3d',
+        language: 'ar'
+    });
+    $(document).ready(function () {
+        $(".choose-CompReason").select2({
+            placeholder: "@Client.ReasonComplaint",
+            language: $("html").attr("lang"),
+        });
+        $(".choose-Order").select2({
+            placeholder: "@ChefProfile.Orders",
+            language: $("html").attr("lang"),
+        });
+    });
+</script>
+
+</html>
